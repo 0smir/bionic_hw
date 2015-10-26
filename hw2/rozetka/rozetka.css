@@ -8,17 +8,15 @@ html, body, p{
 	background-color: #FCE9CA;/* color peach*/
 	height: 600px;
 	width: 390px;
-	margin: 0;
-	padding: 0;
 	position: relative;
 }
 
 .pictures{
 	background-color: #FFCCBC; /* color light-orange*/
-	height: 450px; 
-	width: 250px;
-	margin: 10px;
-	padding: 0px;
+	height: 550px; 
+	width: 300px;
+	top: 30px;
+	position: relative;
 }
 
 .big_phone_photo{
@@ -27,43 +25,119 @@ html, body, p{
 	padding: 0;
 	height: 350px;
 	width: 170px;
+	top: 30px;
+	left:10px;
+	position: absolute;
+	z-index: 1;
+}
 
+.stock{
+	/*background-color: #E0E0E0; /* color light-grey */
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 2;
 }
 
 .stock_icon{
-	margin: 10px;
-	padding: 0;
-	height: 50px;
-	width: 50px;
-}
-
-.mini_phone_photo{
-	background-color: yellow;
 	height: 70px;
-	width: 40px;
+	width: 120px;
 }
 
-.mini_phon{
-	margin: 10px;
-	padding: 0;
-	height: 50px;
+
+.phon_color{
+	background-color: white;
+	height: 110px;
+	width: 80px;
+	top: 190px;
+	right: 20px;
+	border-radius: 10px;
+	border: 1px solid #E0E0E0;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.8;
+}
+
+
+ .mini_phone_photo{
+	top: 20px;
+	right: 70px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	z-index: 2;
+	opacity: 1;
+
+}
+
+
+ .mini_phon{
+	height: 60px;
 	width: 30px;
+	top: 0;
+	right: 0;
+}
+
+.cost, .color{
+	font-size: 12px;
+}
+
+.cost{
+	color: green;
+	position: absolute;
+	top: 90px;
+	right: 5px;
+
+}
+
+.color{
+	color: grey;
+	position: absolute;
+	top: 5px;
+	right: 35px;
+}
+
+
+
+.credit{
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+    background-color: #E53935; /* color darck-red*/
+	border-radius: 10px;
+	height: 100px;
+	width: 86px;
+	bottom: 120px;
+	left: 40px;
+	position: absolute;
+	z-index: 2;
+
 }
 
 .credit_photo{
-	margin: 0;
-	padding: 0;
-	height: 50px;
-	width: 30px;
+	height: 75px;
+	width: 75px;
+	
 }
 
 .credit_container{
 	background-color: white;
-	margin: 10px;
-	padding: 0;
-	height: 60px;
-	width: 40px;
+	border-radius: 10px;
+	border: 1px solid #E53935; /* color darck-red*/
+	height: 85px;
+	width: 85px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1;
 }
+
+
+
+
+
+
 
 
 
