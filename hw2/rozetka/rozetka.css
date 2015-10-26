@@ -5,14 +5,14 @@ html, body, p{
 }
 
 .main{
-	background-color: #FCE9CA;/* color peach*/
-	height: 600px;
+	background-color: white;/* color peach*/
+	height: 700px;
 	width: 390px;
 	position: relative;
 }
 
 .pictures{
-	background-color: #FFCCBC; /* color light-orange*/
+	background-color: white; /* color light-orange #FFCCBC*/
 	height: 550px; 
 	width: 300px;
 	top: 30px;
@@ -33,8 +33,8 @@ html, body, p{
 
 .stock{
 	/*background-color: #E0E0E0; /* color light-grey */
-	top: 0;
-	left: 0;
+	top: 5px;
+	left: 15px;
 	position: absolute;
 	z-index: 2;
 }
@@ -59,7 +59,7 @@ html, body, p{
 }
 
 
- .mini_phone_photo{
+.mini_phone_photo{
 	top: 20px;
 	right: 70px;
 	height: 0;
@@ -107,7 +107,7 @@ html, body, p{
     background-color: #E53935; /* color darck-red*/
 	border-radius: 10px;
 	height: 100px;
-	width: 86px;
+	width: 80px;
 	bottom: 120px;
 	left: 40px;
 	position: absolute;
@@ -124,9 +124,9 @@ html, body, p{
 .credit_container{
 	background-color: white;
 	border-radius: 10px;
-	border: 1px solid #E53935; /* color darck-red*/
-	height: 85px;
-	width: 85px;
+	border: 2px solid #E53935; /* color darck-red*/
+	height: 82px;
+	width: 76px;
 	bottom: 0;
 	left: 0;
 	position: absolute;
@@ -135,7 +135,53 @@ html, body, p{
 
 
 
+.feedback{
+	background-color: white; /* color light-brown #BCAAA4*/
+	height: 100px;
+	width: 300px;
+	left: 40px;
+	bottom: 100px;
+	position: absolute;
+	z-index: 1;
+}
 
+ .phone_feedback{
+ 	font-size: 16px;
+ }
+ .gift{
+	font-size: 18px;
+	position: absolute;
+	bottom: -10px;
+	
+}
+
+.price{
+	background-color: #FFF9C4; /*color light-yellow*/
+	color: green;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	left: 40px;
+	bottom: 20px;
+	/*border: 1px solid;*/
+	position: absolute;
+	z-index: 1;
+}
+
+.button{
+	background-color: green;
+	color: white;
+	text-align: center;
+	vertical-align: 15px;
+	height: 30px;
+	width: 110px;
+	right: 60px;
+	bottom: 25px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 1;
+
+}
 
 
 
