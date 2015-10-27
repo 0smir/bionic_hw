@@ -112,6 +112,28 @@ html, body, p{
 
 }
 
+.more_info{
+	position: absolute;
+	display:inline-block;
+	bottom: -3px;
+	left: 352px;
+	
+	
+}
+
+.more_info .info{
+	position: absolute;
+	display:inline-block;
+	bottom: 5px;
+	left: 30px;
+
+}
+
+
+
+	 
+
+
 
 
 
