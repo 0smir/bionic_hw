@@ -6,9 +6,11 @@ html, body, p{
 
 .main{
 	background-color: white;/* color peach*/
+	border: 1px solid grey;
+	border-radius: 5px;
 	height: 700px;
 	width: 390px;
-	position: relative;
+	position: absolute;
 }
 
 .pictures{
@@ -16,7 +18,7 @@ html, body, p{
 	height: 550px; 
 	width: 300px;
 	top: 30px;
-	position: relative;
+	position: absolute;
 }
 
 .big_phone_photo{
@@ -28,7 +30,7 @@ html, body, p{
 	top: 30px;
 	left:10px;
 	position: absolute;
-	z-index: 1;
+	
 }
 
 .stock{
@@ -54,7 +56,6 @@ html, body, p{
 	border-radius: 10px;
 	border: 2px solid #E0E0E0;
 	position: absolute;
-	z-index: 2;
 	opacity: 0.8;
 }
 
@@ -65,7 +66,7 @@ html, body, p{
 	left: -20px;
 	border: 10px solid transparent;
 	border-right: 10px solid #E0E0E0;
-	z-index: 1;
+	
 }
 
 .phone_color:after {
@@ -75,7 +76,7 @@ html, body, p{
 	left: -18px;
 	border: 10px solid transparent;
 	border-right: 10px solid white;
-	z-index: 1;
+	
 }
 
 
@@ -85,7 +86,6 @@ html, body, p{
 	height: 0;
 	width: 0;
 	position: absolute;
-	z-index: 2;
 	opacity: 1;
 
 }
@@ -131,7 +131,7 @@ html, body, p{
 	bottom: 120px;
 	left: 40px;
 	position: absolute;
-	z-index: 2;
+	
 
 }
 
@@ -150,7 +150,6 @@ html, body, p{
 	bottom: 0;
 	left: 0;
 	position: absolute;
-	z-index: 1;
 }
 
 
@@ -160,9 +159,8 @@ html, body, p{
 	height: 100px;
 	width: 300px;
 	left: 40px;
-	bottom: 100px;
+	bottom: 120px;
 	position: absolute;
-	z-index: 1;
 }
 
  .phone_feedback{
@@ -175,41 +173,57 @@ html, body, p{
 	
 }
 
+.circle{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	height: 20px;
+	width: 20px;
+	border-radius:10px; 
+	font-size: 18px;
+	position: absolute;
+	top: 5px;
+	left: 305px;
+}
+
 .price{
-	/*background-color: #FFF9C4; olor light-yellow
+	background-color: #FFF9C4; /*color light-yellow*/
 	color: green;
 	text-align: center;
 	height: 50px;
 	width: 150px;
 	left: 40px;
-	bottom: 20px;
-	/*border: 1px solid;*/
+	bottom: 50px;
 	position: absolute;
-	z-index: 1;
 }
 
-.price-bg{
+/*.price-bg{
 	bottom: 20px;
 	left: 20px;
-	background-color: #FFF9C4; /*color light-yellow*/
+	background-color: #FFF9C4; /*color light-yellow
 	position: absolute;
+	} */
+
+.button{
+	background-color: cyan;
+	position: absolute;
+	height: 0;
+	width: 0;
+	bottom: 90px;
+	right: 150px;
 
 }
 
-.button{
+input[type=button]{
+	padding: 3px 45px;
+	border-radius: 10px;
 	background-color: green;
-	color: white;
 	text-align: center;
-	vertical-align: 15px;
-	height: 30px;
-	width: 110px;
-	right: 60px;
-	bottom: 25px;
-	border-radius: 5px;
-	position: absolute;
-	z-index: 1;
-	box-shadow: 0  8px 3px 3px #BDBDBD;
-
+	color: white;
+	font-size: 18px;
+	width: 130px;
+	height: 40px;
 }
 
 
