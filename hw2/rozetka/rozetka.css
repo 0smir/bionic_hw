@@ -176,7 +176,7 @@ html, body, p{
 }
 
 .price{
-	background-color: #FFF9C4; /*color light-yellow*/
+	/*background-color: #FFF9C4; olor light-yellow
 	color: green;
 	text-align: center;
 	height: 50px;
@@ -186,6 +186,14 @@ html, body, p{
 	/*border: 1px solid;*/
 	position: absolute;
 	z-index: 1;
+}
+
+.price-bg{
+	bottom: 20px;
+	left: 20px;
+	background-color: #FFF9C4; /*color light-yellow*/
+	position: absolute;
+
 }
 
 .button{
