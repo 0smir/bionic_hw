@@ -8,55 +8,29 @@ html, body, p{
 	background-color: white;/* color peach*/
 	border: 1px solid grey;
 	border-radius: 5px;
-	height: 700px;
 	width: 390px;
-	position: absolute;
+	position: relative;
 }
-
-.pictures{
-	background-color: white; /* color light-orange #FFCCBC*/
-	height: 550px; 
-	width: 300px;
-	top: 30px;
+.stock_icon{
 	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .big_phone_photo{
-
 	margin: 30px;
-	padding: 0;
-	height: 350px;
-	width: 170px;
 	top: 30px;
 	left:10px;
-	position: absolute;
-	
 }
-
-.stock{
-	/*background-color: #E0E0E0; /* color light-grey */
-	top: 5px;
-	left: 15px;
-	position: absolute;
-	z-index: 2;
-}
-
-.stock_icon{
-	height: 70px;
-	width: 120px;
-}
-
 
 .phone_color{
 	background-color: white;
-	height: 110px;
 	width: 80px;
-	top: 190px;
-	right: 20px;
 	border-radius: 10px;
 	border: 2px solid #E0E0E0;
 	position: absolute;
-	opacity: 0.8;
+	left: 120px;
+    top: 100px
 }
 
 .phone_color:before { 
@@ -65,8 +39,7 @@ html, body, p{
 	top: 20px;
 	left: -20px;
 	border: 10px solid transparent;
-	border-right: 10px solid #E0E0E0;
-	
+	border-right: 10px solid #E0E0E0;	
 }
 
 .phone_color:after {
@@ -76,101 +49,42 @@ html, body, p{
 	left: -18px;
 	border: 10px solid transparent;
 	border-right: 10px solid white;
-	
 }
 
-
-.mini_phone_photo{
-	top: 20px;
-	right: 70px;
-	height: 0;
-	width: 0;
-	position: absolute;
-	opacity: 1;
-
-}
-
-
- .mini_phon{
-	height: 60px;
-	width: 30px;
-	top: 0;
-	right: 0;
-}
-
-.cost, .color{
+.cost,
+.color{
 	font-size: 12px;
 }
 
 .cost{
 	color: green;
-	position: absolute;
-	top: 90px;
-	right: 5px;
-
 }
 
 .color{
 	color: grey;
-	position: absolute;
-	top: 5px;
-	right: 35px;
 }
-
-
 
 .credit{
 	color: white;
 	font-size: 13px;
-	font-weight: bold;
 	text-align: center;
     background-color: #E53935; /* color darck-red*/
 	border-radius: 10px;
-	height: 100px;
 	width: 80px;
 	bottom: 120px;
 	left: 40px;
 	position: absolute;
-	
-
 }
-
 .credit_photo{
-	height: 75px;
-	width: 75px;
-	
-}
-
-.credit_container{
 	background-color: white;
 	border-radius: 10px;
-	border: 2px solid #E53935; /* color darck-red*/
-	height: 82px;
-	width: 76px;
-	bottom: 0;
-	left: 0;
-	position: absolute;
 }
 
-
-
-.feedback{
-	background-color: white; /* color light-brown #BCAAA4*/
-	height: 100px;
-	width: 300px;
-	left: 40px;
-	bottom: 120px;
-	position: absolute;
-}
-
- .phone_feedback{
+.phone_feedback{
  	font-size: 16px;
- }
- .gift{
+}
+.product_link{
 	font-size: 18px;
-	position: absolute;
-	bottom: -10px;
-	
 }
 
 .circle{
@@ -178,52 +92,23 @@ html, body, p{
 	color: white;
 	text-align: center;
 	font-family: Arial, sans-serif;
-	height: 20px;
-	width: 20px;
-	border-radius:10px; 
+	border-radius: 50%; 
 	font-size: 18px;
-	position: absolute;
-	top: 5px;
-	left: 305px;
 }
 
 .price{
 	background-color: #FFF9C4; /*color light-yellow*/
 	color: green;
 	text-align: center;
-	height: 50px;
 	width: 150px;
-	left: 40px;
-	bottom: 50px;
-	position: absolute;
+	display: inline-block;
 }
 
-/*.price-bg{
-	bottom: 20px;
-	left: 20px;
-	background-color: #FFF9C4; /*color light-yellow
-	position: absolute;
-	} */
-
-.button{
-	background-color: cyan;
-	position: absolute;
-	height: 0;
-	width: 0;
-	bottom: 90px;
-	right: 150px;
-
-}
-
-input[type=button]{
-	padding: 3px 45px;
-	border-radius: 10px;
+.add_to_cart{
+	border-radius: 5px;
 	background-color: green;
-	text-align: center;
 	color: white;
 	font-size: 18px;
-	width: 130px;
-	height: 40px;
 }
 
 
