@@ -25,7 +25,7 @@ html, body, p{
 
 .phone_color{
 	background-color: white;
-	width: 80px;
+	width: 70px;
 	border-radius: 10px;
 	border: 2px solid #E0E0E0;
 	position: absolute;
@@ -50,12 +50,11 @@ html, body, p{
 	border: 10px solid transparent;
 	border-right: 10px solid white;
 }
-.mini_phone{
-	display: inline-block;
-}
 
 .cost,
-.color{
+.color,
+.mini_phon{
+	display: block;
 	font-size: 12px;
 	text-align: center;
 }
@@ -66,6 +65,11 @@ html, body, p{
 
 .color{
 	color: grey;
+}
+
+.mini_phon{
+	position: relative;
+	left: 20px;
 }
 
 .credit{
