@@ -1,115 +1,64 @@
-html, body, p{
-	margin: 0;
-	padding: 0;
-	font-family: Verdana, Tahoma, sans-serif;
-}
-
 .product{
-	background-color: #FFE0B2;/* color light-orange*/
-	height: 500px;
-	width: 1070px;
+	background: yellow;
+	min-height: 200px;
+	min-width: 200px;
 	position: relative;
-}
-
-.column_one, .column_two, .column_three{
-	height: 400px;
-	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
 .column_one{
-	background-color: #DCEDC8;/*color light-green*/
+	background: lightgrey;
+	min-height: 20px;
 	width: 280px;
-	left: 10px;
-	top: 10px;
-	bottom: 10px;
+	float: left;
 }
 
 .column_two{
-	background-color: #E0E0E0; /* color light-grey*/
-	width: 490px;
-	left: 290px;
-	top: 10px;
-	bottom: 10px;
+	background: lightblue;
+	min-height: 20px;
+	width: 380px;
+	float: left;
 }
 
 .column_three{
-	background-color: #FCE4EC; /* color light-pink*/
+	background: violet;
+	min-height: 20px;
 	width: 280px;
-	right: 10px;
-	top: 10px;
-	bottom: 10px;
+	float: left;
 }
 
 #boiler{
-	height: 280px;
+	height: 260px;
 	width: 280px;
-	position: absolute;
-	top:0;
-	left: 0;
 }
 
-#red_flame{
-	height: 80px;
-	width: 80px;
-	position: absolute;
-	bottom:10px;
-	left: 5px;
-	z-index: 1;
+.red_flame{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
-
-.red_flame_text{
-	background-color: transparent;
-	font-size: 16px;
-	text-align: center;
-	height: 80px;
-	width: 80px;
-	color: white;
-	position: absolute;
-	bottom: -15px;
-	left: 5px;
-	z-index: 2;
-	
-}
-
-#orange_flame{
-	height: 80px;
-	width: 80px;
-	position: absolute;
-	bottom:10px;
-	right: 5px;
-	z-index: 1;
-}
-
-.super_price{
-	background-color: transparent;
-	font-size: 14px;
-	text-align: center;
-	height: 30px;
-	width: 30px;
-	position: absolute;
-	bottom: 25px;
-	right: 35px;
-	z-index: 2;
-}
-
-
-
 .block{
-	background-color: #F57F17; /* color orange*/
-	border: 2px solid #BF360C; /* color deep-orange*/
-	color: white;
-	font-weight: normal;
+	background: orange;
 	text-align: center;
+	color: white;
+	font-size: 19px;
+	outline: 2px solid #BF360C; /* color deep-orange*/
+	border-bottom: 2px dashed white;
+	width: 70px;
+	height:  40px;
 	position: absolute;
-	height: 40px;
-	width: 80px;
-	bottom: 15px;
-	right: 100px;
-}
 
+}
 
 .stock{
-
+	border-bottom: 1px dashed white;
+	border-top: 1px dashed white;
+	position: absolute;
+	top: 3px;
+	left: 10px;
+	line-height: 1.7;
 }
 
 .more_info{
@@ -126,18 +75,3 @@ html, body, p{
 	display:inline-block;
 	bottom: 5px;
 	left: 30px;
-
-}
-
-
-
-	 
-
-
-
-
-
-
-
-
-
