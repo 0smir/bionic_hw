@@ -1,0 +1,40 @@
+.block{
+	overflow: hidden;
+	padding: 0;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px  grey;
+}
+	table{
+	border: 5px solid white;
+	border-collapse: collapse;
+	font-family: sans-serif;
+}
+.head{
+	background:  #37b8e9;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+.info{
+	background: #D9ECF4;
+}
+
+
+th{
+	border-left: 1px solid #2d95bc;
+	padding: 10px 10px 10px 5px;
+	color: white;
+}
+
+td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.info > td{
+	color: grey;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+}
