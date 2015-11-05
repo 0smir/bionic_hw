@@ -12,25 +12,33 @@ html, body, p{
 	position: relative;
 }
 .stock_icon{
+	height: 55px;
+	width: 78px;
 	position: absolute;
-	top: 2px;
-	left: 20px;
+	top: -37px;
+	left: -8px;
+}
+
+.main_phone_photo{
+	position: relative;
+	top: 40px;
+	left: 30px;
 }
 
 .big_phone_photo{
-	margin: 30px;
-	top: 30px;
-	left:10px;
+	height: 300px;
+	width: 150px;
 }
 
 .phone_color{
 	background-color: white;
+	opacity: 0.8;
 	width: 70px;
 	border-radius: 10px;
 	border: 2px solid #E0E0E0;
-	position: absolute;
-	left: 120px;
-    top: 100px
+	position: relative;
+	left: 137px;
+    bottom: 200px
 }
 
 .phone_color:before { 
@@ -68,6 +76,8 @@ html, body, p{
 }
 
 .mini_phon{
+	height: 40px;
+	width: 20px;
 	position: relative;
 	left: 20px;
 }
@@ -78,18 +88,29 @@ html, body, p{
 	text-align: center;
     background-color: #E53935; /* color darck-red*/
 	border-radius: 5px;
-	width: 49px;
-	bottom: 135px;
-	left: 30px;
+	width: 40px;
+	bottom: 75px;
+	left: 0;
 	position: absolute;
 }
 .credit_photo{
+	height: 40px;
+	width: 38px;
 	background-color: white;
 	border-radius: 5px;
 }
-
+.info{
+  position: relative;
+  top:0;
+  left: 30px;
+}
 .phone_feedback{
  	font-size: 16px;
+}
+
+.star{
+  height:10px;
+  width:30px;  
 }
 
 .product_link{
@@ -98,13 +119,13 @@ html, body, p{
 
 .promo{
 	color: red;
+	display: block;
 }
 
 .promo_details{
 	background-color: blue;
 	color: white;
 	text-align: center;
-	font-family: Arial, sans-serif;
 	height: 15px;
 	width: 15px;
 	border-radius: 50%; 
@@ -115,6 +136,8 @@ html, body, p{
 .price{
 	background-color: #FFF9C4; /*color light-yellow*/
 	color: green;
+	border: 1px solid #FFF9C9;
+	box-shadow: 1px 2px 4px grey;
 	border-radius: 5px;
 	height: 30px;
 	width: 60px;
@@ -128,6 +151,11 @@ html, body, p{
 	background-color: green;
 	color: white;
 	font-size: 18px;
+	height: 35px;
+    width: 120px;
+    display: inline-block;
+    margin: 5px 5px;
+    box-shadow: 1px 2px 4px grey;
 }
 
 
