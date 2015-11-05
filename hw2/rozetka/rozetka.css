@@ -1,9 +1,9 @@
-html, body, p{
+/*html, body, p{
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Tahoma, sans-serif;
 }
-
+*/
 .main{
 	background-color: white;/* color peach*/
 	border: 1px solid grey;
@@ -105,21 +105,17 @@ html, body, p{
   left: 30px;
 }
 .phone_feedback{
- 	font-size: 16px;
+ 	font-size: 14px;
 }
 
 .star{
-  height:10px;
-  width:30px;  
-}
-
-.product_link{
-	font-size: 18px;
+  height: 20px;
+  width: 90px;  
 }
 
 .promo{
 	color: red;
-	display: block;
+	display: inline-block;
 }
 
 .promo_details{
@@ -130,6 +126,11 @@ html, body, p{
 	width: 15px;
 	border-radius: 50%; 
 	font-size: 12px;
+	display: inline-block;
+}
+
+.product_link{
+	font-size: 18px;
 	display: inline-block;
 }
 
