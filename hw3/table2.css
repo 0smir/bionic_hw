@@ -4,46 +4,64 @@
 	border-radius: 4px;
 	box-shadow: 0 1px 4px #E0E0EB;
 	display:inline-block;
+	position: relative;
 }
 
 table{
 	border-collapse: collapse;
-	font-family: 'Source Sans Pro', 'Areal', 'Verdana' sans-serif;
-	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	position: relative;
 }
 
-th{
+.head{
 	background-color: #283B4D;
 	color: #D1D1E0; /* light-grey*/
 	font-size: 18px;
+	text-align: center;
 }
 
 .price{
 	background-color: #2d95bc;
+	color: white;
 }
 
 .circle{
-	display: inline-block;
 	height: 50px;
 	width: 50px;
-	border: 2px solid white;
+	border: 3px solid white;
 	border-radius: 50%;
-	padding: 2px;
 	text-align: center;
 	position: relative;
 	left: 20px;
+	top: -3px;
+	padding: 10px;
+	margin: 20px;
+}
+.price_2{
+	position: relative;
 	top: 10px;
+	left: 0px;
+}
+.price_2_1{
+	font-size: 20px;
+	
+}
+
+.price_2_2{
+	font-size: 12px;
+
 }
 
 .streak{
 	background-color: white;
 	border-bottom: 1px solid #F0F0F5;
 	color: #C0C8DB;
-	font-size: 12px;
+	font-size: 14px;
 }
 .button{
-	background-color: #283B4D;
-	color: #D1D1E0; /* light-grey*/
+	background-color: #2d95bc;
+	color: white; /* light-grey*/
 }
 
 .streak, 
