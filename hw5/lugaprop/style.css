@@ -19,6 +19,7 @@ body  {
 	width: 960px;  
 	background-image:url(images/header-bg.png);
 	background-repeat:repeat-x;
+	position: relative;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 10px;
 	background-color: #FFFFFF;
@@ -27,41 +28,122 @@ body  {
 	text-align: left; 
 } 
 
+header
+article
+nav
+aside
+footer{
+	display: block;
+}
+
 .logo {
 width:300px;
 height:100px;
-padding:10px;
+margin: 10px;
 float:left;
 }
 
 .lgp header { 
 	height:120px;
-	float:left;
 	width:100%;
+	position: relative;
 	margin-bottom:40px;
 }
 .mail_skype{
-	width: 180px;
-	float: left;
-	padding-right: 20px;
+	width: 230px;
+	padding-right: 10px;
 	padding-left: 200px;
 	margin: 10px 0;
 	display: block;
+	float: left;
 }
 
 .contact_phones{
 	width: 200px;
-	float: right;
 	margin: 10px 0;
+	float: left;
+	
 }
 
 .clearfloat{
 	clear: both;
-}	
-
-header
-article
-nav
-aside{
-	display: block;
 }
+
+.contact_phones,
+.mail_skype{
+	line-height: 21px;
+	font-size: 14px;
+	}	
+
+#sidebar1{
+	font-size:14px;
+	color:#000;
+	float: left; 
+	width: 200px; 
+	padding: 15px 10px 15px 20px;
+}
+#sidebar1 a:link{
+	color:#000;
+	text-decoration: none;
+}
+
+#sidebar1 a:visited{
+	color:#000;
+	text-decoration: none;
+}
+
+#sidebar1 a:hover {
+text-decoration:underline;
+}
+
+article{
+	width:680px;
+	padding: 0 20px; 
+	float:right;
+} 
+
+footer{
+	color:black;
+	font-weight:bold;
+	padding: 0 10px;
+	background:#DDDDDD; 
+	height:90px;
+	margin: 0;
+}
+
+.double_prop,
+.blades,
+.xai_university,
+.patent{
+	margin:15px;
+	border-radius:10px;
+	border:5px solid #00698c;
+
+}
+
+
+.double_prop,
+.blades,
+.xai_university
+{
+	width:300px;
+}
+
+.patent{
+	width:600px;
+}
+
+a .double_prop,
+a .blades,
+a .xai_university{
+	position: relative;
+	left: 170px;
+}
+
+a .patent{
+	position: relative;
+	left: 20px;
+}
+
+	
+
