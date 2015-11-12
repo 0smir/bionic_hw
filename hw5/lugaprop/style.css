@@ -2,7 +2,7 @@
 body  {
 	background-size: 100% 100%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 18px;
 	font-style: normal;
 	line-height: 150%;
 	font-weight: normal;
@@ -15,17 +15,14 @@ body  {
 	text-align: left;
 	
 }
-.lgp #wrapper { 
+#wrapper { 
 	width: 960px;  
-	background-image:url(images/header-bg.png);
-	background-repeat:repeat-x;
 	position: relative;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 10px;
 	background-color: #FFFFFF;
 	margin: 25px auto; 
 	border: 1px solid #000000;
-	text-align: left; 
 } 
 
 header
@@ -35,21 +32,23 @@ aside
 footer{
 	display: block;
 }
+header { 
+	height: 120px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+	background-image:url(images/header-bg.png);
+	background-repeat: no-repeat;
+	}
 
 .logo {
-width:300px;
-height:100px;
-margin: 10px;
-float:left;
+	width:300px;
+	height:100px;
+	margin: 10px;
+	float:left;
 }
 
-.lgp header { 
-	height:120px;
-	width:100%;
-	position: relative;
-	margin-bottom:40px;
-}
-.mail_skype{
+.e-contact{
 	width: 230px;
 	padding-right: 10px;
 	padding-left: 200px;
@@ -58,30 +57,40 @@ float:left;
 	float: left;
 }
 
-.contact_phones{
+.physical-contact{
 	width: 200px;
 	margin: 10px 0;
 	float: left;
 	
 }
-
-.clearfloat{
-	clear: both;
+.mail{
+	padding-right: 10px;
 }
 
-.contact_phones,
-.mail_skype{
+.e-contact,
+.physical-contact{
 	line-height: 21px;
 	font-size: 14px;
 	}	
 
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
 #sidebar1{
-	font-size:14px;
 	color:#000;
 	float: left; 
 	width: 200px; 
-	padding: 15px 10px 15px 20px;
+	padding: 15px 10px 15px 10px;
 }
+ul li{
+	margin: 10px 0;
+	}
+
 #sidebar1 a:link{
 	color:#000;
 	text-decoration: none;
@@ -93,7 +102,7 @@ float:left;
 }
 
 #sidebar1 a:hover {
-text-decoration:underline;
+	text-decoration:underline;
 }
 
 article{
