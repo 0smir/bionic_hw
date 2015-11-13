@@ -31,33 +31,70 @@ header{
 	padding: 10px;
 }
 
-ul{
-	text-align: center;
-}
-
-li{
-	display: inline-block;
-	margin: 5px;
-	list-style-type: none;
-}
-
 .navigeition{
 	min-height: 50px;
 	width: 100%;
 	border: 1px solid red;
-
 }
-.man_droped{
-	position: absolute;
 
-	display: ;
+.main_menu,
+.man_droped{
+	text-align: center;
+	list-style-type: none;
+}
+
+.main_menu{
+	display: block;
+	position: relative;
+}
+
+.main_menu>li{
+	display: inline-block;
+	margin: 5px auto;
+	padding: 0 20px;
+}
+
+.man_droped,
+.women_droped,
+.explore_droped,
+.collection_droped{
+	min-height: 20px;
+	width: 100%;
+	display: none;
+	position: absolute;
 	border: 1px solid red;
 }
-.man_droped li{
-	display: block;
+.man_droped{
+	top: 100%;
+	left:0;
+	background-color: green;
 }
 
-.for_man:hover{
-
+.women_droped{
+	top: 100%;
+	left:0;
 }
+.explore_droped{
+	top: 100%;
+	left:0;
+}
+
+.collection_droped{
+	top: 100%;
+	left:0;
+}
+
+.man_droped>li,
+.women_droped>li,
+.explore_droped>li,
+.collection_droped>li{
+	display: inline-block;
+	padding: 0 10px;
+	margin: 5px auto;	
+}
+ .for_man:hover .man_droped
+  { 
+    display: block;
+   }
+
 
