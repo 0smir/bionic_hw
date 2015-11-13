@@ -1,7 +1,6 @@
 .main_container{
 	min-height: 500px;
 	width: 100%;
-	
 	background-image: url(http://www.look.com.ua/large/201209/22313.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -32,8 +31,33 @@ header{
 	padding: 10px;
 }
 
-menu{
-	display: inline;
+ul{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	margin: 5px;
 	list-style-type: none;
+}
+
+.navigeition{
+	min-height: 50px;
+	width: 100%;
+	border: 1px solid red;
+
+}
+.man_droped{
+	position: absolute;
+
+	display: ;
+	border: 1px solid red;
+}
+.man_droped li{
+	display: block;
+}
+
+.for_man:hover{
+
 }
 
