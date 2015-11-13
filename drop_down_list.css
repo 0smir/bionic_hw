@@ -1,0 +1,39 @@
+.main_container{
+	min-height: 500px;
+	width: 100%;
+	
+	background-image: url(http://www.look.com.ua/large/201209/22313.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	width: 100%;
+	min-height: 150px;
+	border-radius: 15px;
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+.promotion{
+	max-height: 50px;
+	width: 100%;
+	position: relative;
+	top: 5px;
+	margin: 5px 0;
+	background-color: rgba(200, 200, 200, 0.7);
+	border-radius: 15px;
+
+}
+
+.info{
+	display: block;
+	text-align:  center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+menu{
+	display: inline;
+	list-style-type: none;
+}
+
