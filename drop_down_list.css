@@ -1,3 +1,8 @@
+   ul{
+    -webkit-padding-start: 0;
+    webkit-margin-after: 0; 
+}
+
 .main_container{
 	min-height: 500px;
 	width: 100%;
@@ -32,26 +37,31 @@ header{
 }
 
 .navigeition{
-	min-height: 50px;
+	min-height: auto;
 	width: 100%;
+	font-size: 0;
 	border: 1px solid red;
-}
-
-.main_menu,
-.man_droped{
-	text-align: center;
-	list-style-type: none;
+	
 }
 
 .main_menu{
 	display: block;
 	position: relative;
+	font-size: 0;
+	text-align: center;
+	list-style-type: none;
 }
 
 .main_menu>li{
 	display: inline-block;
+	position: relative;
 	margin: 5px auto;
 	padding: 0 20px;
+	font-size: 14px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 2px solid rgba(200, 200, 200, 1);
+	border-radius: 7px;
+
 }
 
 .man_droped,
@@ -62,12 +72,13 @@ header{
 	width: 100%;
 	display: none;
 	position: absolute;
+	top: 100%;
+	background-color: rgba(200, 200, 200, 1);
 	border: 1px solid red;
 }
 .man_droped{
 	top: 100%;
 	left:0;
-	background-color: green;
 }
 
 .women_droped{
@@ -90,11 +101,23 @@ header{
 .collection_droped>li{
 	display: inline-block;
 	padding: 0 10px;
-	margin: 5px auto;	
+	margin: 5px auto;
+	font-size: 14px;	
 }
- .for_man:hover .man_droped
+ .for_man:hover .man_droped,
+ .for_women:hover .women_droped,
+ .explore:hover .explore_droped,
+ .collection:hover .collection_droped
   { 
     display: block;
    }
 
+.for_man:hover .man_droped,
+ .for_women:hover .women_droped,
+ .explore:hover .explore_droped,
+ .collection:after
 
+a{
+	display: block;
+	width: 100%;
+}
