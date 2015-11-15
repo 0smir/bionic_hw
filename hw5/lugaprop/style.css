@@ -169,8 +169,8 @@ footer{
 	background:#DDDDDD; 
 }
 
-#aside strong a:first-child{
-	color: red;
+.new_info{
+	color: red !important;
 }
 
 footer>p{
