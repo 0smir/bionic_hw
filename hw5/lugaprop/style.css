@@ -20,7 +20,8 @@ body  {
 }
 
 #wrapper { 
-	width: 960px;	
+	width: 960px;
+	height: 100%;	
 	position: relative;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 10px;
@@ -103,17 +104,20 @@ ul{
 }
 
 
-#sidebar1 a:link{
+#sidebar1 a:link,
+footer a:link{
 	color:#000;
 	text-decoration: none;
 }
 
-#sidebar1 a:visited{
+#sidebar1 a:visited,
+footer a:visited{
 	color:#000;
 	text-decoration: none;
 }
 
-#sidebar1 a:hover {
+#sidebar1 a:hover,
+footer a:hover {
 	text-decoration:underline;
 }
 
@@ -159,14 +163,20 @@ a .patent{
 
 footer{
 	min-height:90px;
-	margin: -18px 0;
 	color:black;
-	padding: 0;
+	padding: 10px 0;
 	font-weight:bold;
 	background:#DDDDDD; 
 }
 
+#aside strong a:first-child{
+	color: red;
+}
 
+footer>p{
+	text-align: justify;
+	margin: 10px 20px 0 30px;
+}
 
 
 
