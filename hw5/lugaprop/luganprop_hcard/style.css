@@ -1,0 +1,166 @@
+ ul{
+    -webkit-padding-start: 0;
+    webkit-margin-after: 0; 
+}
+	@charset "utf-8";
+body  {
+	background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	background-attachment: fixed;
+	background-color: #FFF;
+	background-image: url(images/strip.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+}
+
+#wrapper { 
+	width: 960px;
+	height: 100%;	
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px;
+	background-color: #FFFFFF;
+	margin: 25px auto; 
+	border: 1px solid #000000;
+} 
+
+header
+article
+nav
+aside
+footer{
+	display: block;
+}
+
+header { 
+	min-height: 120px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+	background-image:url(images/header-bg.png);
+	background-repeat: no-repeat;
+	}
+
+.logo {
+	width:300px;
+	height:100px;
+	margin: 10px;
+	display: block;
+	float:left;
+}
+
+.vcard{
+	min-height: 20px;
+	min-width: 610px;
+	margin: 10px 30px 10px 0;
+	display: inline-block;
+	text-align: right;
+}
+
+article{
+	width:680px;
+	padding: 0 20px; 
+	display: inline-block;
+	text-align: justify;
+} 
+
+#sidebar1{
+	color:#000;
+	float: left; 
+	width: 200px; 
+	padding: 15px 10px 15px 20px;
+}
+
+li{
+	margin: 10px 0;
+}
+
+ul{
+	padding-left: 20px;
+}
+
+
+#sidebar1 a:link,
+footer a:link{
+	color:#000;
+	text-decoration: none;
+}
+
+#sidebar1 a:visited,
+footer a:visited{
+	color:#000;
+	text-decoration: none;
+}
+
+#sidebar1 a:hover,
+footer a:hover {
+	text-decoration:underline;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+.double_prop,
+.blades,
+.xai_university,
+.patent{
+	margin:15px;
+	border-radius:10px;
+	border:5px solid #00698c;
+
+}
+.double_prop,
+.blades,
+.xai_university
+{
+	width:300px;
+}
+
+.patent{
+	width:600px;
+}
+
+a .double_prop,
+a .blades,
+a .xai_university{
+	position: relative;
+	left: 170px;
+}
+
+a .patent{
+	position: relative;
+	left: 20px;
+}
+
+footer{
+	min-height:90px;
+	color:black;
+	padding: 10px 0;
+	font-weight:bold;
+	background:#DDDDDD; 
+}
+
+.new_info{
+	color: red !important;
+}
+
+footer>p{
+	text-align: justify;
+	margin: 10px 20px 0 30px;
+}
+
+
+
+
+
