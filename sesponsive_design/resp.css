@@ -1,0 +1,89 @@
+.heder{
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+	padding: 1%;
+	background-color: #ff9e3d;
+}
+h1{
+	text-transform: uppercase;
+}
+
+.london,
+.paris,
+.tokyo {
+float: left;
+}
+
+.london{
+	width: 30%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 1%;
+	background-repeat: no-repeat;
+}
+.paris{
+	width: 30%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 1%;
+	background-repeat: no-repeat;
+}
+.tokyo{
+	width: 30%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 1%;
+	background-repeat: no-repeat
+}
+
+.pic{
+	height: 200px;
+	width: 200px;
+}
+
+.london .pic{
+	background-image: url(http://fratria.ru/downontour/uk/london/sights/london_sight_11.jpg);
+	background-size: cover;
+}
+.paris .pic{
+	background-image: url(http://tourmag.com.ua/userfiles/images/fr_paris2.jpg);
+	background-size: cover;
+}
+.tokyo .pic{
+	background-image: url(http://allcastle.info/assets/images/foto/170-1.jpg);
+	background-size: cover;
+}
+
+@media screen and (max-width: 700px){
+
+	.london{
+		width: 100%;
+		
+	}
+	.paris{
+	width: 100%;
+	
+	}
+	.tokyo{
+	width: 100%;
+	
+	}
+
+}
+
+@media screen and (max-width:500px){
+
+	.london{
+		width: 100%;
+		
+	}
+	.paris{
+	width: 100%;
+	
+	}
+	.tokyo{
+	width: 100%;
+	
+	}
+}
