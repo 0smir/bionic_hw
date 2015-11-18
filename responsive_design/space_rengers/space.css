@@ -1,0 +1,97 @@
+
+body{
+	background-color: #ccc7c7;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.wrap{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 3%; 
+	background-color: white;
+}
+
+.logo{
+
+	min-height: 150px;
+	background: url(images/logo.png);
+	background-size: cover;
+	background-position: 49% 21%;
+}
+
+h1 h2{
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	text-align: justify;
+}
+
+.ufo_fey{
+	width: 100%;
+}
+
+.ufo_gaal{
+width: 49%;
+display: inline-block;
+}
+
+
+.ufo_molok{
+	width: 32.333333%;
+	margin: 0.3125%;
+	display: inline-block;
+	float: left;
+}
+
+.human{
+	width: 24.5%;
+	margin: 0.15625%;
+	display: block;
+	float: left;
+}
+
+@media screen and (max-width: 500px){
+	.ufo_fey{
+		width: 100%;
+	}
+
+	.ufo_gaal{
+		width: 100%;
+		display: inline-block;
+	}
+
+	.ufo_molok{
+		width: 49%;
+		margin: 0.5%;
+		display: inline-block;
+		float: left;
+	}
+
+	.human{
+		width: 49%;
+		margin: 0.5%;
+		display: block;
+		float: left;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
