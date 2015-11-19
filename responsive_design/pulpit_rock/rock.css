@@ -1,28 +1,47 @@
+html{
+	font-size: 10px;
+}
 body{
 	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
 }
+
+.wraper{
+	width: 95%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
 
 header{
 	width: 100%;
-	height: 100px;
 	background-color: #e5e3e3;
 	box-sizing: border-box;
 	padding: 1%;
 }
 
 nav{
-	width: 33%;
+	width: 25%;
 	height: auto;
-	box-sizing: border-box;
-	padding: 1%;
+	margin-top: 1%;
 	float: left;
 }
 
+li{
+	line-height: 2.8;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #c4c9ca;
+	padding-left: 3%;
+}
+
 article{
-	width: 33%;
+	width: 50%;
 	height: auto;
 	box-sizing: border-box;
 	padding: 1%;
+	margin-top: 1%;
 	float: left;
 }
 .picture{
@@ -31,13 +50,57 @@ article{
 }
 
 aside{
-	width: 33%;
-	height: auto;
+	width: 25%;
 	box-sizing: border-box;
+	margin-top: 1%;
 	padding: 1%;
 	float: left;
 	background-color: #dbf4f6;
 }
+
+.clearfix{
+	clear: both;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		font-size: 1.7rem;
+	}	
+}
+
+@media screen and (max-width: 700px){
+	body{
+		font-size: 1.6rem;
+	}	
+}
+
+@media screen and (max-width: 600px){
+	
+	body{
+		font-size: 1.4rem;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	body{
+		font-size: 1.4rem;
+	}
+
+	nav{
+		width: 100%;	
+	}
+
+	article{
+		width: 100%;
+	}
+
+	aside{
+		width: 100%;
+	}
+
+}
+
 
 
 
