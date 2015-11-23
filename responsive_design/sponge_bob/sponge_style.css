@@ -55,8 +55,8 @@ html{
 
 
 #wrap{
-	height: 1050px;
-	width: 480px;
+	height: 1040px;
+	width: 640px;
 	margin: 0 auto;
 	background-color: pink;	
 }
@@ -93,8 +93,9 @@ header{
 }
 
 #video{
-	width: 480px;
-	height: 500px;
+	max-width: 640px;
+	min-width: 380px;
+	height: 770px;
 	box-sizing: border-box;
 	padding: 1px;
 	background-image: url(img/bob.png);
@@ -104,8 +105,8 @@ header{
 }
 
 .menu{
-	width: 480px;
-	height: 109px;
+	width: 640px;
+	height: 110px;
 	box-sizing: border-box;
 	padding: 1px;
 	background-image: url(img/topvideo.png);
@@ -124,7 +125,7 @@ header{
 .share{
 	width: 47px;
 	height: 54px;
-	margin: 13px 36px 13px 20px; 
+	margin: 28px 36px 28px 20px; 
 	background-image: url(img/share_pic.png);
 	background-size: cover;
 	float: right;
@@ -133,9 +134,61 @@ header{
 .time{
 	width: 45px;
 	height: 45px;
+	margin: 32.5px 0;
+	float: right;
 	background-image: url(img/clock.png);
 	background-size: cover;
+}
+
+.button{
+	width: 451px;
+	height: 192px;
+	margin:  159.5px auto;
+	background-image: url(img/button.png);
+	background-size: cover;
+}
+
+.play{
+	width: 45px;
+	height: 45px;
 	float: right;
+	background-image: url(img/);
+	background-size: cover;
+
+}
+
+.video_control{
+	width: 640px;
+	height: 110px;
+	background-image: url(img/video_footer.png);
+}
+
+.start{
+	width: 41px;
+	height: 44px;
+	float: left;
+	background-image: url(img/start_control.png);
+	background-size: cover;
+}
+
+.sound{
+	width: 44px;
+	height: 43px;
+	float: left;
+	background-image: url(img/volume.png);
+	background-size: cover;
+
+}
+
+.line{
+	width: 629px;
+	height: 8px;
+	background-image: url(img/time_line.png);
+	background-size: cover;
+}
+
+.full{
+	
 }
 
 
