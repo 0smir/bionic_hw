@@ -16,21 +16,21 @@ float: left;
 }
 
 .london{
-	width: 30%;
+	width: 33.3333%;
 	height: 50%;
 	box-sizing: border-box;
 	padding: 1%;
 	background-repeat: no-repeat;
 }
 .paris{
-	width: 30%;
+	width: 33.3333%;
 	height: 50%;
 	box-sizing: border-box;
 	padding: 1%;
 	background-repeat: no-repeat;
 }
 .tokyo{
-	width: 30%;
+	width: 33.33333%;
 	height: 50%;
 	box-sizing: border-box;
 	padding: 1%;
