@@ -53,28 +53,26 @@ html{
 	font-family: 'Roboto', sans-serif;
 }
 
-
 #wrap{
-	height: 1040px;
-	width: 640px;
+	height: 100vh;
+	width: 100vw; /*480px;*/
 	margin: 0 auto;
-	background-color: pink;	
+	background-color: #000;
 }
 
 header{
 	width: 100%;
 	height: 90px;
+	box-sizing: border-box;
 	background-color: grey;
 	padding: 3px;
 }
 
 
 .logo{
-	
-	min-width: 380px;
-	max-width: 640px;
+	width: 480px;
 	float: left;
-	padding: 10px 0;
+	padding: 15px 0;
 }
 
 .star{
@@ -85,142 +83,23 @@ header{
 	background-image: url(img/star2.png);
 	background-size: cover;
 	color: white;
-	font-size: 1.6rem;
 	text-align: center;
 	line-height: 64px;
 	float: left;
 }
 
 #video{
-	max-width: 638px;
-	min-width: 378px;
-	height: 770px;
-	box-sizing: border-box;
-	padding: 1px;
-	background-image: url(img/bob.png);
-	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	background-image: url(img/spanch.png);
 	background-size: cover;
-
+	border: 1px solid red;
 }
 
-.menu{
-	width: 640px;
-	height: 110px;
-	box-sizing: border-box;
-	padding: 1px;
-	margin-top: -1px;
-	background-image: url(img/topvideo.png);
-	background-size: cover;
+menu{
+	background-image: url(img/spanch.png);
 }
 
-.hd{
-	width: 122px;
-	height: 27px;
-	background-image: url(img/videohd.png);
-	background-size: cover;
-	margin: 42px 0 0 40px;
-	float: left;
-}
-
-.share{
-	width: 47px;
-	height: 54px;
-	margin: 28px 36px 28px 20px; 
-	background-image: url(img/share_pic.png);
-	background-size: cover;
-	float: right;
-}
-
-.clock{
-	width: 45px;
-	height: 45px;
-	margin: 32.5px 0;
-	float: right;
-	background-image: url(img/clock.png);
-	background-size: cover;
-}
-
-.button{
-	width: 451px;
-	height: 192px;
-	margin:  178.5px auto;
-	background-image: url(img/button.png);
-	background-size: cover;
-}
-
-.play{
-	width: 45px;
-	height: 45px;
-	float: right;
-	background-image: url(img/);
-	background-size: cover;
-
-}
-
-.video_control{
-	width: 640px;
-	height: 110px;
-	box-sizing: border-box;
-	padding: 15px 0;
-	background-image: url(img/video_footer.png);
-}
-
-
-.line{
-	width: 629px;
-	height: 8px; 
-	margin: 0 auto;
-	background-image: url(img/time_line.png);
-	background-size: cover;
-}
-
-.start{
-	width: 41px;
-	height: 44px;
-	margin: 18px 5px;
-	float: left;
-	background-image: url(img/start_control.png);
-	background-size: cover;
-}
-
-.sound{
-	width: 44px;
-	height: 43px;
-	float: left;
-	margin: 18px 5px;
-	background-image: url(img/volume.png);
-	background-size: cover;
-
-}
-
-
-.time{
-	width: 119px;
-	height: 44px;
-	line-height: 4.4rem;
-	font-size: 1.8rem;
-	margin: 18px 5px;
-	text-align: center;
-	float: left;
-	color: white;
-	
-	border: 1px dashed red;
-}
-
-.full{
-	width: 55px;
-	height: 44px;
-	margin: 18px 5px;
-	float: right;
-	background-image: url(img/full_screen.png);
-	background-size: cover;
-}
-
-#agreement{
-	height: 115px;
-	width: 640px;
-	background-color: #292929;
-}
 
 
 
