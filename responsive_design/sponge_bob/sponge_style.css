@@ -102,9 +102,17 @@ header{
 	width: 100%;
 	min-height: 550px;
 	background-image: url(img/spanch.png);
+	background-repeat: no-repeat;
 	background-size: cover;
-	border: 1px solid red;
 	background-position: 50% 50%;
+}
+
+.menu,
+.hd,
+.share,
+.clock,
+.button{
+	background-repeat: no-repeat;
 }
 
 .menu{
@@ -125,8 +133,7 @@ header{
 	float: left;
 }
 
-.share
-{
+.share{
 	width: 47px;
 	height: 54px;
 	margin: 28px 36px 28px 20px; 
@@ -142,6 +149,26 @@ header{
 	float: right;
 	background-image: url(img/clock.png);
 	background-size: cover;
+}
+
+
+.button{
+	width: 451px;
+	height: 192px;
+	margin:  178.5px auto;
+	background-image: url(img/button.png);
+	box-sizing: border-box;
+	padding: 49.5px 35px;
+	background-size: cover;
+}
+
+.play{
+	width: 84px;
+	height: 93px;
+	float: right;
+	background-image: url(img/play-button.png);
+	background-size: cover;
+
 }
 
 
