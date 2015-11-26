@@ -116,39 +116,30 @@ img{
 	width: 100%;
 	min-height: 45px;
 	box-sizing: border-box;
-	padding: 10px 5px;
+	padding: 9px 5px;
 	background-image: url(img/topvideo.png);
 	background-size: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
-}
-
-.video-name{
-	width: 180px;
-	height: 21px;
 	font-size: 1.8rem;
-	line-height: 21px;
+	line-height: 27px;
 	color: white;
-	float: left;
 }
 
 
 .share{
 	width: 24px;
-	height: 28px;
-	margin: ; 
-	background-image: url(img/share_pic.png);
-	background-size: cover;
+	height: 27px;
+	margin: 0 5px; 
 	float: right;
 }
 
 .clock{
 	width: 27px;
 	height: 27px;
-	margin: ;
+	margin: 0 5px;
 	float: right;
-	background-image: url(img/clock.png);
 }
 
 
