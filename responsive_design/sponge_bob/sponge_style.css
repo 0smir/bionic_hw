@@ -56,37 +56,34 @@ html{
 #wrap{
 	height: 100vh;
 	width: 100vw; /*480px;*/
-	margin: 0 auto;
 	background-color: #000;
 }
 
 header{
-	width: 100%;
-	min-height: 90px;
-	box-sizing: border-box;
 	background-color: grey;
 	padding: 3px;
 }
 
+img{
+	max-width: 100%;
+	vertical-align: bottom;
+}
 
 .logo{
-	width: 79.16666667%; /*380px/480px*/
-	float: right;
-	padding: 15px 0;
+	width: 180px;
 	margin: 0 auto;
 }
 
 .star{
-	max-width: 100%;
-	box-sizing: border-box;
-	padding: 0 4.166666%; /*0 20px/480px*/
+	min-width: 45px;
+	height: 45px;
 	margin: 10px;
 	background-image: url(img/star2.png);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	color: white;
 	text-align: center;
-	line-height: 6.9rem;
+	line-height: 45px;
 	font-size: 1.8rem;
 	float: left;
 }
@@ -99,12 +96,11 @@ header{
 }
 
 #video{
+	position: relative;
+}
+
+.bob{
 	width: 100%;
-	min-height: 550px;
-	background-image: url(img/spanch.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
 }
 
 .menu,
@@ -113,66 +109,74 @@ header{
 .clock,
 .button{
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .menu{
-	width: 100%; /*640px;*/
-	height: 110px;
+	width: 100%;
+	min-height: 45px;
 	box-sizing: border-box;
-	padding: 1px;
-	/*margin-top: -1px;*/ /* меню не стыковалось с header на 1px но потом эта же проблема вылезла в footer*/
+	padding: 10px 5px;
 	background-image: url(img/topvideo.png);
 	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
-.hd{
-	width: 130px;
-	height: 27px;
-	background-image: url(img/videohd.png);
-	background-size: cover;
-	margin: 42px 0 0 40px;
+
+.video-name{
+	width: 180px;
+	height: 21px;
+	font-size: 1.8rem;
+	line-height: 21px;
+	color: white;
 	float: left;
 }
 
+
 .share{
-	width: 47px;
-	height: 54px;
-	margin: 28px 36px 28px 20px; 
+	width: 24px;
+	height: 28px;
+	margin: ; 
 	background-image: url(img/share_pic.png);
 	background-size: cover;
 	float: right;
 }
 
 .clock{
-	width: 45px;
-	height: 45px;
-	margin: 32.5px 0;
+	width: 27px;
+	height: 27px;
+	margin: ;
 	float: right;
 	background-image: url(img/clock.png);
-	background-size: cover;
 }
 
 
 .button{
-	width: 451px;
-	height: 192px;
-	margin:  178.5px auto;
+	width: 250px;
+	height: 80px;
 	background-image: url(img/button.png);
-	box-sizing: border-box;
-	padding: 49.5px 35px;
-	background-size: cover;
+	position: absolute;
+	line-height: 81px;
+	top: 34%;
+	left: 34%;
+	color: white;
+	vertical-align: bottom;
+	/*vertical-align: middle;*/
+	font-size: 1.8rem;
+	text-align: center;
 }
 
 .play{
-	width: 84px;
-	height: 93px;
-	float: right;
-	background-image: url(img/play-button.png);
-	background-size: cover;
+	width: 42px;
+	height: 46px;
+	vertical-align: middle;
 }
 
 
+
+
 .video_control{
-	width: 100%; /*640px;*/
 	min-height: 110px;
 	box-sizing: border-box;
 	/*padding: 15px 0;*/
@@ -192,8 +196,8 @@ div.line img{
 
 /**/
 .start{
-	width: 41px;
-	height: 44px;
+	width: 20px;
+	height: 22px;
 	margin: 18px 5px;
 	float: left;
 	background-image: url(img/start_control.png);
@@ -201,8 +205,8 @@ div.line img{
 }
 /**/
 .sound{
-	width: 44px;
-	height: 43px;
+	width: 22px;
+	height: 21px;
 	float: left;
 	margin: 18px 5px;
 	background-image: url(img/volume.png);
@@ -223,8 +227,8 @@ div.line img{
 }
 
 .full{
-	width: 55px;
-	height: 44px;
+	width: 27px;
+	height: 22px;
 	margin: 18px 5px;
 	float: right;
 	background-image: url(img/full_screen.png);
@@ -232,13 +236,13 @@ div.line img{
 }
 
 #agreement{
-	width: 100%; /*640px;*/
+	width: 100%; /*480px;*/
 	height: 115px;
 	background-color: #292929;
 }
 
 footer p{
-	width: 100%; /*640px*/
+	width: 100%; /*480px*/
 	font-size: 1.6rem;
 	line-height: 2rem;
 	padding: 5px;
