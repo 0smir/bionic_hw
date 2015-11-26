@@ -96,7 +96,7 @@ img{
 }
 
 #video{
-	position: relative;
+	position: relative; /* применяем позиционирование т.к. планирую исрользовать для кнопки pos:absolute*/
 }
 
 .bob{
@@ -111,7 +111,7 @@ img{
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-
+/* меню над видео + подпись видео*/
 .menu{
 	width: 100%;
 	min-height: 45px;
@@ -127,7 +127,8 @@ img{
 	color: white;
 }
 
-
+/* применяю как img ("позже" и "поделиться" 
+тк это основные эл-ты меню и должны быть подписи*/
 .share{
 	width: 24px;
 	height: 27px;
@@ -141,6 +142,10 @@ img{
 	margin: 0 5px;
 	float: right;
 }
+
+
+/* TODO очистить от лишнх стилей, основные кнопки меню
+применить как img, */
 
 
 .button{
@@ -174,6 +179,8 @@ img{
 	background-image: url(img/video_footer.png);
 }
 
+/* линия контроля просмотра  возможно лучше отрисовать как div*/
+
 .line{
 	width: 100%;
 	min-height: 8px; 
@@ -204,7 +211,7 @@ div.line img{
 	background-size: cover;
 }
 
-/**/
+/* убрать лишний div, применить просто как подпись*/
 .time{
 	width: 119px;
 	height: 44px;
@@ -242,6 +249,8 @@ footer p{
 	text-align: justify;
 	background-color: #292929;
 }
+
+/* добавить медиазапросы в точке 320px */
 
 
 
