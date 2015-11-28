@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Template</title>      
+    <!-- 1. Подключаем скомпилированный и минимизированный файл CSS Bootstrap 3 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Заголовок всплывающей панели" data-content="Основной текст всплывающей панели">Нажмите на кнопку</button>
+    <!-- 2. Подключаем библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 3. Подключаем скомпилированный и минимизированный файл JavaScript платформы Bootstrap 3 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Дополнительный сценарий на языке JavaScript, предназначенный для инициализации компонента Bootstrap "Popovers" -->
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4"><block1</div>
+    <div class="col-lg-4">block2</div>
+    <div class="col-lg-4">block3</div>
+  </div>
+</div>
+
+
+
+
+    
+</body>
+</html>
