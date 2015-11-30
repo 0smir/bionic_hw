@@ -51,6 +51,7 @@ table {
 	padding: 10px;
 	color: yellow;
 	background-image: url('images/bg1.jpg');
+	background-color: red;
 	background-repeat: no-repeat;
 }
 
@@ -63,7 +64,7 @@ table {
 
 .video_footer{
 	min-height: 90px;
-	background-color: pink;
+	background-color: dimgrey;
 }
 
 
@@ -72,30 +73,33 @@ table {
 	background-color: powderblue;
 }
 
-.one{
-	min-height: 40px;
-	background-color: palegreen;
-}
 
-.two{
-	min-height: 40px;
+
+.video{
+
 	background-color: pink
 }
 
-.tree{
-	min-height: 40px;
-	background-color: greenyellow;
-}
 
 .visual_editor{
-	min-height: 90px;
 	background-color: lightskyblue;
 }
 
+.editor img{
+	width: 400px;
+	margin: 0 auto;
+
+}
+
 .ready_design{
-	min-height: 90px;
+
 	background-color: peachpuff;
 
+}
+
+.prim_design img{
+	width: 400px;
+	margin: 0 auto;
 }
 
 
@@ -117,6 +121,9 @@ table {
 	background-color: pink;
 }
 
+.prim_2{
+	width: 400px;
+}
 
 .accounting{
 	min-height: 90px;
@@ -153,7 +160,15 @@ table {
 
 
 
-
+<div class="row">
+<div class="col-lg-12">
+<div class="prim_one">
+<img src="images/" alt="payment">
+<img src="images/" alt="payment">
+</div>
+  <div class="prim_two"></div>
+						  </div>
+							<div class="col-lg-12"></div>
 
 
 
