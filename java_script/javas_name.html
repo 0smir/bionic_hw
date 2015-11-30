@@ -131,12 +131,93 @@
 	var x = 30;
 	 if (x > 10)
 	 	var f = x;
-	 
 	 if (f <= 100)
 	 	alert(f);
 </script>
 
+Пример: 4 Программа решения квадратного уравнения a(x*x) + bx + c = 0  , где a = 2, b = 3,  c = -5. Искать только вещественные корни.
 
+<script type="text/javascript">
+	var a = 2, b = 3,  c = -5;
+	var d = b * b - 4 * a * c;
+	if (d >= 0)
+		var x1 = (-b + Math.sqrt(d)) / (2 * a);
+	if (d >= 0)
+		var x2 = (-b - Math.sqrt(d)) / (2 * a);
+	alert(x1);
+	alert(x2);
+</script>
+
+
+Составная команда: Программа решения квадратного уравнения a(x*x) + bx + c = 0  , где a = 7, b = 9,  c = -5;. Искать только вещественные корни.
+
+<script type="text/javascript">
+	var a = 7, b = 9,  c = -5;
+	var d = b * b - 4 * a * c;
+	if (d >= 0)
+	{
+		var x1 = (-b + Math.sqrt(d)) / (2 * a);
+		var x2 = (-b - Math.sqrt(d)) / (2 * a);
+	}
+	
+	alert(x1);
+	alert(x2);
+</script>
+
+
+Пусть переменная t содержит время дня. Если  утро , если - День , если  - вечер.
+
+<script type="text/javascript">
+	var t = 23;
+	if (t < 12)
+		alert("утро");
+	else if (t < 18)
+		alert("День");
+	else if (t > 22)
+		alert("вечер")
+</script>
+
+
+
+Охарактеризовать заданное число х как отрицательное, ноль или положительное.
+
+<script type="text/javascript">
+	var x = 42;
+	if (x < 0)
+		alert("отрицательное");
+	else if(x = 0)
+		alert("ноль");
+	else 
+		alert("положительное");
+</script>
+
+
+Дано число целое. Охарактеризовать его как "круглое", "полукруглое", "некруглое".
+
+<script type="text/javascript">
+	var y = 17;
+	var f = (y%10);
+	if (f == 5)
+		alert("полукруглое");
+	else if (f == 0)
+		alert("круглое");
+	else 
+		alert("некруглое")
+</script>
+
+
+Оценки студентам пятибалльная и стобалльная шкалыю Перевести стобалльную шкалу в пятибалльную: var a = 5, b = 4, c = 3, d = 2;
+<script type="text/javascript">
+	var  b = 60
+	if (b <= 59)
+		alert(2);
+	else if (b <= 74)
+		alert(3);
+	else if (b <= 89)
+		alert(4);
+	else 
+		alert(5);
+</script>
 
 
 
