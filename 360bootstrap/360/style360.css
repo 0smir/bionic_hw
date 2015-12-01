@@ -44,7 +44,9 @@ table {
 }
 
 
-
+.row{
+	border: 1px solid green;
+}
 .main{
 	height: 590px;
 	box-sizing: border-box;
@@ -53,6 +55,7 @@ table {
 	background-image: url('images/bg1.jpg');
 	background-color: red;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -151,28 +154,10 @@ table {
 	background-color: peachpuff;
 }
 
-
-
-
-
-
-
-
-
-
-<div class="row">
-<div class="col-lg-12">
-<div class="prim_one">
-<img src="images/" alt="payment">
-<img src="images/" alt="payment">
-</div>
-  <div class="prim_two"></div>
-						  </div>
-							<div class="col-lg-12"></div>
-
-
-
-
+img{
+	vertical-align: middle;
+	margin: 0 auto;
+}
 
 
 
