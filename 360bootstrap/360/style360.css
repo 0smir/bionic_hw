@@ -44,11 +44,8 @@ table {
 }
 
 
-.row{
-	border: 1px solid green;
-}
-.main{
-	height: 590px;
+
+.main-first{
 	box-sizing: border-box;
 	padding: 10px;
 	color: yellow;
@@ -58,91 +55,53 @@ table {
 	background-size: cover;
 }
 
-
-
-.video_top{
-	min-height: 90px;
-	background-color: darkseagreen;
-}
-
-.video_footer{
-	min-height: 90px;
-	background-color: dimgrey;
+.video-footer{
+	background-color: #5d5d5d;
+	color: #ffffff;
 }
 
 
-.top{
-	min-height: 40px;
-	background-color: powderblue;
+.visual_editor,
+.sales_funnel,
+.notification,
+.free_web{
+	background-color: #f3f3f3;
 }
 
-
-
-.video{
-
-	background-color: pink
-}
-
-
-.visual_editor{
-	background-color: lightskyblue;
-}
-
-.editor img{
-	width: 400px;
-	margin: 0 auto;
-
-}
 
 .ready_design{
 
-	background-color: peachpuff;
-
-}
-
-.prim_design img{
-	width: 400px;
-	margin: 0 auto;
 }
 
 
 .sales_funnel{
-	min-height: 90px;
-	background-color: cyan;
+
 }
 
 
 
 .payments{
-	min-height: 90px;
-	background-color: lightyellow;
+
 }
 
 
 .notification{
-	min-height: 90px;
-	background-color: pink;
+
 }
 
-.prim_2{
-	width: 400px;
-}
 
 .accounting{
-	min-height: 90px;
-	background-color: violet;
+
 }
 
 
 
 .free_web{
-	min-height: 90px;
-	background-color: blueviolet;
+
 }
 
 
-.ready_to_work{
-	min-height: 450px;
+.start{
 	background-image: url('images/bg2.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -150,14 +109,14 @@ table {
 }
 
 .footer{
-	min-height: 90px;
-	background-color: peachpuff;
+	;
 }
 
 img{
-	vertical-align: middle;
 	margin: 0 auto;
 }
+
+
 
 
 
