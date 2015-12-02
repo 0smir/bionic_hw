@@ -44,18 +44,32 @@ table {
 }
 
 body{
-
+	font-family: 'Roboto', sans-serif;
+	line-height: 21px;
+	font-size: 10px;
 }
 
-.main-first{
+h1{
+	text-align: center;
+}
+
+
+
+.main-first {
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 30px;
 	background-image: url('images/bg1.jpg');
-	background-color: red;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
+
+.main-first article,
+.footer article{
+	box-sizing: border-box;
+	padding: 80px 300px 100px;
+}
+
+
 
 .main-first,
 .video-footer,
@@ -66,12 +80,17 @@ color: #ffffff;
 .main-first article,
 .start article{
 	text-align: center;
-	line-height: 60px;
+
 }
 
 li{
 	float: left;
 	text-align: center;
+}
+
+li p{
+	font-weight: 300;
+	font-size: 1rem;
 }
 
 .video-footer{
@@ -85,8 +104,6 @@ li{
 .free_web{
 	background-color: #f3f3f3;
 }
-
-
 
 .start{
 	background-image: url('images/bg2.jpg');
@@ -108,54 +125,48 @@ img{
 	max-width: 400px;
 }
 
-/*.illustration{
-	float: left;
+.logo-top{
+	max-width: 110px;
+}
+
+.entrance{
+	padding: 5px 15px;
+	border-radius: 10%;
+	line-height: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	display: inline-block;
+}
+
+.entrance:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer a{
+	display: block;
+}
+
+.start p,
+.main-first article>p {
+	font-style: italic;
 
 }
 
-img.illustration {
-	width: 560px;
 
+
+button{
+	padding: 5px 20px;
 }
 
 .clearfix:after{
-	display: block;
+	content: ' ';
+	display: inline-block;
 	overflow: hidden;
 	clear: both;
-}*/
-
-
-
-
-.ready_design{
-
 }
 
 
-.sales_funnel{
-
-}
-
-
-
-.payments{
-
-}
-
-
-.notification{
-
-}
-
-
-.accounting{
-
-}
-
-
-
-.free_web{
-
-}
 
 
