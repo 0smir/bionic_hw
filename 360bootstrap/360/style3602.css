@@ -42,7 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+------------------------------------
 body{
 	font-family: 'Roboto', sans-serif;
 	line-height: 21px;
@@ -51,36 +51,56 @@ body{
 
 h1{
 	text-align: center;
+	font-weight: bold;
 }
 
-
-
-.main-first {
-	box-sizing: border-box;
-	padding: 30px;
-	background-image: url('images/bg1.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+.start h1{
+	text-transform: uppercase;
 }
-
-.main-first article,
-.footer article{
-	box-sizing: border-box;
-	padding: 80px 300px 100px;
-}
-
-
 
 .main-first,
 .video-footer,
 .start {
-color: #ffffff;
+	color: #ffffff;
 }
+
+.main-first {
+	background-image: url('images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.start{
+	background-image: url('images/bg2.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 
 .main-first article,
 .start article{
 	text-align: center;
 
+}
+
+.main-first,
+.start{
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+
+.main-first article,
+.start article{
+	box-sizing: border-box;
+	padding: 80px 300px 100px;
+}
+
+span{
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
 li{
@@ -90,7 +110,7 @@ li{
 
 li p{
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .video-footer{
@@ -105,12 +125,6 @@ li p{
 	background-color: #f3f3f3;
 }
 
-.start{
-	background-image: url('images/bg2.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
 
 .footer{
 	color: #000;;
