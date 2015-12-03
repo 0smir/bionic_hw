@@ -148,6 +148,9 @@ img{
 .logo-top{
 	max-width: 110px;
 }
+.icon{
+	max-width: 36px;
+}
 
 .entrance{
 	padding: 5px 15px;
