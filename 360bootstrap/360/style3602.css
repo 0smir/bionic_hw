@@ -109,8 +109,14 @@ li{
 }
 
 li p{
+	box-sizing: border-box;
+	padding: 5px 110px;
 	font-weight: 300;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+
+}
+.icon{
+	padding: 5px;
 }
 
 .video-footer{
@@ -171,7 +177,21 @@ img{
 
 
 button{
-	padding: 5px 20px;
+	padding: 5px 40px;
+}
+
+.try-now{
+	background-color: #8cb668;
+	border: 1px solid  darkgreen;
+	border-radius: 5%;
+	color: darkgreen;
+}
+
+.start-now{
+	background-color: limegreen;
+	border: 1px solid  darkgreen;
+	border-radius: 5%;
+	color: white;
 }
 
 .clearfix:after{
