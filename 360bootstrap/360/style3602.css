@@ -2,7 +2,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -55,6 +55,17 @@ h1{
 	text-transform: uppercase;
 }
 
+.icon{
+	padding: 5px;
+}
+
+.clearfix:after{
+	content: ' ';
+	display: inline-block;
+	overflow: hidden;
+	clear: both;
+}
+
 .main-first,
 .video-footer,
 .start {
@@ -62,15 +73,13 @@ h1{
 }
 
 .main-first {
-	background-image: url('images/bg1.jpg');
-	background-repeat: no-repeat;
+	background: url('images/bg1.jpg') no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .start{
-	background-image: url('images/bg2.jpg');
-	background-repeat: no-repeat;
+	background: url('images/bg2.jpg') no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -79,7 +88,7 @@ h1{
 .main-first article,
 .start article{
 	text-align: center;
-
+	box-sizing: border-box;
 }
 
 .main-first,
@@ -89,21 +98,12 @@ h1{
 }
 
 
-.main-first article,
-.start article{
-	box-sizing: border-box;
-	
-}
-
 li{
 	float: left;
 	text-align: center;
 }
 
 
-.icon{
-	padding: 5px;
-}
 
 .video-footer{
 	background-color: #5d5d5d;
@@ -153,12 +153,6 @@ img{
 	display: block;
 }
 
-.clearfix:after{
-	content: ' ';
-	display: inline-block;
-	overflow: hidden;
-	clear: both;
-}
 
 .muted{
 	color: lightgrey;
