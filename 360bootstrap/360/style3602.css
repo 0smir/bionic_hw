@@ -45,13 +45,10 @@ table {
 ------------------------------------
 body{
 	font-family: 'Roboto', sans-serif;
-	line-height: 21px;
-	font-size: 10px;
 }
 
 h1{
 	text-align: center;
-	font-weight: bold;
 }
 
 .start h1{
@@ -95,12 +92,7 @@ h1{
 .main-first article,
 .start article{
 	box-sizing: border-box;
-	padding: 80px 300px 100px;
-}
-
-span{
-	font-size: 1.2rem;
-	font-weight: 300;
+	
 }
 
 li{
@@ -108,13 +100,7 @@ li{
 	text-align: center;
 }
 
-li p{
-	box-sizing: border-box;
-	padding: 5px 110px;
-	font-weight: 300;
-	font-size: 1.4rem;
 
-}
 .icon{
 	padding: 5px;
 }
@@ -171,31 +157,9 @@ img{
 	display: block;
 }
 
-.start p,
-.main-first article>p {
-	font-style: italic;
-
-}
 
 
 
-button{
-	padding: 5px 40px;
-}
-
-.try-now{
-	background-color: #8cb668;
-	border: 1px solid  darkgreen;
-	border-radius: 5%;
-	color: darkgreen;
-}
-
-.start-now{
-	background-color: limegreen;
-	border: 1px solid  darkgreen;
-	border-radius: 5%;
-	color: white;
-}
 
 .clearfix:after{
 	content: ' ';
@@ -203,6 +167,11 @@ button{
 	overflow: hidden;
 	clear: both;
 }
+
+.muted{
+	color: lightgrey;
+}
+
 
 
 
