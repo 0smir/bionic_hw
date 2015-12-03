@@ -127,10 +127,6 @@ img{
 	margin: 0 auto;
 }
 
-.illustration{
-	max-width: 400px;
-}
-
 .logo-top{
 	max-width: 110px;
 }
@@ -157,10 +153,6 @@ img{
 	display: block;
 }
 
-
-
-
-
 .clearfix:after{
 	content: ' ';
 	display: inline-block;
@@ -172,8 +164,14 @@ img{
 	color: lightgrey;
 }
 
+/*дописать стили кнопкам*/
 
 @media screen and (min-width: 1200px){
+
+	h1{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	} /* не работают стили фонов*/
 
 
 
@@ -198,9 +196,17 @@ img{
 }
 
 @media screen and (max-width: 768px){
+	.main-first,
+	.start{
+		box-sizing: border-box;
+		padding: 10px 5px 0;
+	}
 
-
-
+	.articles{
+		text-align: justify;
+		padding-left: 15px;
+	}
+/* дописать стили для li -сделать им границу как в виде кнопки при col-xs-12*/
 
 
 }
