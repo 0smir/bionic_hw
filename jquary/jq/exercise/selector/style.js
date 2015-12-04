@@ -14,4 +14,15 @@ $(document).ready(function(){
 	$('table').mouseenter(function(){$('tr:odd').css('background-color','#f0f0f0');
 	});
 
+
+	  $("figure").on({mouseenter: function(){
+        $("figure").find(".social");
+      	$(".social").css('display','block');
+  		},
+  		mouseleave: function(){
+  			$(".social").css('display','none');
+  		}
+
+  	});
+
 });

@@ -1,0 +1,23 @@
+figure {
+  display: block;
+  border: 4px solid #fff;
+  box-shadow:  0 0 3px #c0c0c0;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial;
+  position: relative;
+}
+figure img {
+  width: 200px;
+}
+figure .social {
+  width: 32px;
+  height: 32px;
+  background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-32.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  cursor: pointer;
+}
