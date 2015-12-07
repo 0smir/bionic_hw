@@ -18,7 +18,7 @@ $(document).ready(function(){
    	$(this).animate({
    		'left' : '200px',
 		'top' : '200px'
-   	})
+   	});
    });
 
    $('#four').click(function(){
@@ -27,11 +27,29 @@ $(document).ready(function(){
    });
 
    $('#five').click(function(){
-   	$('#five').animate({'left':'95%'}, 3000, 'swing');
-   	$('#five').animate({'top':'200px'});
-   	$('#five').animate({'left':'0'}, 3000, 'swing');
-   	$(this).animate({'top':'0'}, 3000, 'swing');
+	   	$('#five').animate({'left':'95%'}, 3000, 'swing');
+	   	$('#five').animate({'top':'200px'});
+	   	$('#five').animate({'left':'0'}, 3000, 'swing');
+	   	$(this).animate({'top':'0'}, 3000, 'swing');
+   });
+
+   $('#six').click(function(){
+	$('#six').animate({'left':'1200px', 'bottom':'500px'}, 3000, 'swing');
+   });
+
+  $('#six').click(function(){
+	$('#seven').animate({'left':'1200px', 'bottom':'500px'}, 3000, 'swing');
    });
 
 
+
+  	$('#eight').click(function (){
+  		$(this).animate({'height':'80px', 'width':'80px'},200);
+  		}, function (){
+  			$(this).animate({'height':'120px', 'width':'120px'}, 300, vova($(this))); 
+  	});
+  		
 });
+
+
+

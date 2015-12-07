@@ -12,17 +12,39 @@
 }
 
 
-#three{
-	height: 50px;
-	width: 50px;
-	background-color: blue;
-	position: relative;
-}
-
 #four,
-#five{
+#five,
+#three,
+#six,
+#seven{
 	height: 50px;
 	width: 50px;
 	background-color: coral;
 	position: relative;
+}
+
+
+#three{
+	background-color: blue;
+}
+
+
+#six{
+	background-color: green;
+}
+
+#seven{
+	background-color: orange;
+	margin-top: 5px;
+}
+
+#eight{
+	height: 50px;
+	width: 50px;
+	background-image: url(images/1449515915_package_favourite.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	margin-top: 120px;
+	left: 400px;
 }
