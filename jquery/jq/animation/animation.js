@@ -44,9 +44,10 @@ $(document).ready(function(){
 
 
   	$('#eight').click(function (){
-  		$(this).animate({'height':'80px', 'width':'80px'},200);
-  		}, function (){
-  			$(this).animate({'height':'120px', 'width':'120px'}, 300, vova($(this))); 
+  		$(this).animate({'height':'80px', 'width':'80px'}, 200, function (){
+  			$(this).animate({'height':'120px', 'width':'120px'}, 300, function (){
+          $(this).click()} );
+  		}); 
   	});
   		
 });
