@@ -49,6 +49,16 @@ $(document).ready(function(){
           $(this).click()} );
   		}); 
   	});
+
+    $('#ten').click(function f1 () {
+      $(this).animate({'height':'100px', 'width':'100px'}, 200, f2);
+      function f2 () {
+        $('#ten').animate({'height':'150px', 'width':'150px'}, 300, f1);
+      }
+    });
+
+
+
   		
 });
 
