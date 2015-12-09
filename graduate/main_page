@@ -1,0 +1,35 @@
+!!!5
+%html{lang:'en'}
+ %head
+  %meta{charset:'utf-8'}
+  %title cc101studios
+  %link{rel:'stylesheet', href:'styl101studios.css'}
+ %body
+  .main_page.wrap
+   .top
+    .row
+     .logo.col-lg-4
+      %a{href:''}
+       %img{src:'images/page1/logo.png', alt:'logopic'}
+     .main-info.col-lg-8
+   .slide-show
+    .row
+   .main-menu
+    .row
+    .row
+    .row
+   .clients-list
+    .row
+     %h3
+     .clients-slide
+   .footer
+    .row
+     .connect
+    .row
+     .yourproject
+    .row
+     .footer-menu
+      %ul.col-lg-12
+       %li
+        %a{href:''}
+       %img{src:'', alt:''}
