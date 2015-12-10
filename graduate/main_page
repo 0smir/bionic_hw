@@ -1,0 +1,60 @@
+!!!5
+%html{lang:'en'}
+ %head
+  %meta{charset:'utf-8'}
+  %title cc101studios
+  %link{rel:'stylesheet', href:'styl101studios.css'}
+ %body
+  .main_page.wrap
+   .top
+    .row
+     .logo.col-lg-4
+      %a{href:''}
+       %img{src:'images/page1/logo.png', alt:'logopic'}
+     .main-info.col-lg-8.clearfix
+      .row
+       .town
+       %ul.social
+        -(1..6).each do
+         %li
+          %a{href:'#'}
+           %img{src:'#'}
+      .row
+       %ul.top-menu
+        - (1..6).each do
+         %li
+          %a{href:'#'}
+   .slide-show
+    .row
+   .main-menu
+    .row
+     %a{href:'#'}
+      %img
+     %a{href:'#'}
+      %img{src:'#'}
+    .row
+     %a{href:'#'}
+      %img
+     %a{href:'#'}
+      %img{src:'#'}
+    .row
+     %a{href:'#'}
+      %img
+     %a{href:'#'}
+      %img{src:'#'}
+   .clients-list
+    .row
+     %h3
+     .clients-slide
+   .footer
+    .row
+     .connect
+    .row
+     .yourproject
+    .row
+     .footer-menu.clearfix
+      %ul.col-lg-12
+       - (1..8).each do |i|
+        %li
+        %a{href:'#'}
+      %img{src:'', alt:''}
