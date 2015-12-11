@@ -101,7 +101,7 @@
                             </p>
                         </div>
                         <div class="join-form col-lg-5 ol-lg-offset-2">
-                            <form><input>
+                            <form><input type="email" name="subscription" required placeholder="EMAIL">
                             <input type="submit" value="JOIN US">
                             </form>
                         </div>
@@ -111,19 +111,25 @@
             <div class="yourproject">
                 <div class="container">
                     <div class='row'>
-                        <h3 class="">QUOTE YOUR PROJECT</h3>
-                        <form>
-                            <label>YOUR NAME *</label>
-                            <input>
-
-                            <lable>YOUR EMAIL ADDRESS *</lable>
-                            <input>
-
-                            <lable>PHONE NUMBER *</lable>
-                            <input>
-                            <lable>TELL US A BIT ABOUT YOUR BUSINESS AND YOUR PROJECT REQUEST</lable>
-                            <textarea></textarea>
-                            <input type="submit" value="SEND MESSAGE">
+                        <h3 class="text-center">QUOTE YOUR PROJECT</h3>
+                        <form method="get">
+                            <li>
+                                <label class="text-center">YOUR NAME *</label>
+                                <input type="text" required>
+                            </li>
+                            <li>
+                                <label class="text-center">YOUR EMAIL ADDRESS *</label>
+                                <input type="email" required>
+                            </li>
+                            <li>
+                                <label class="text-center">PHONE NUMBER *</label>
+                                <input type="tel" required>
+                            </li>
+                            <label class="text-center">TELL US A BIT ABOUT YOUR BUSINESS AND YOUR PROJECT REQUEST</label>
+                            <textarea type="text" name="about-project" cols="40" rows="6"></textarea>
+                            <div class="send-project-info">
+                                <input type="submit" value="SEND MESSAGE">
+                            </div>
                         </form>
                     </div><!--row-->
                 </div>

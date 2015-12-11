@@ -41,6 +41,11 @@ table {
     border-spacing: 0;
 }
 /*---------reset css---------------*/
+body{
+    font-size: 21px;
+    background-color: antiquewhite;
+    padding-top: 130px;
+}
 
 li{
     display: inline-block;
@@ -79,11 +84,7 @@ a:hover{
     clear: both;
 }
 
-body{
-    font-size: 21px;
-    background-color: antiquewhite;
-    padding-top: 130px;
-}
+
 .header,
 .navbar-fixed-top{
     background-color: white;
@@ -132,6 +133,25 @@ body{
     background-color: #96a9bc;
 }
 
+
+/* styles for form*/
+
+label{
+    display: block;
+
+}
+
+textarea{
+    width: 100%;
+}
+
+.send-project-info{
+    text-align: center;
+}
+
+input[type="text"]:hover{
+    border: 1px solid #88898a;
+}
 
 
 
