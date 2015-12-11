@@ -40,7 +40,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/*reset css*/
+/*---------reset css---------------*/
 
 li{
     display: inline-block;
@@ -52,7 +52,7 @@ li{
     color: #ababab;
 }
 
-.top-menu a{
+a{
     color: #949599;
     padding: 0 10px 10px 0;
     border-radius: 10%;
@@ -60,9 +60,14 @@ li{
     text-decoration: none;
 }
 
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
 
 
-.header{
+
+.navbar-fixed-top>.container{
     border-bottom: 1px solid grey;
 }
 
@@ -76,7 +81,8 @@ li{
 
 body{
     font-size: 21px;
-    background-color: antiquewhite;;
+    background-color: antiquewhite;
+    padding-top: 130px;
 }
 .header,
 .navbar-fixed-top{
@@ -85,7 +91,7 @@ body{
 
 .portfolio img,
 .services img{
-    max-height: 395px;
+   height: 400px;
 }
 .portfolio,
 .services,
@@ -106,5 +112,28 @@ body{
 .seo{
     padding-right: 5px;
 }
+
+
+.container {
+    position: relative;
+    width: 1177px;
+    margin: 0 auto;
+}
+
+
+/*styles for footer*/
+
+
+.getconnect{
+    background-color: #949599;
+    margin-bottom: 10px;
+}
+.yourproject{
+    background-color: #96a9bc;
+}
+
+
+
+
 
 
