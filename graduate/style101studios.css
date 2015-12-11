@@ -73,3 +73,38 @@ li{
     overflow: hidden;
     clear: both;
 }
+
+body{
+    font-size: 21px;
+    background-color: antiquewhite;;
+}
+.header,
+.navbar-fixed-top{
+    background-color: white;
+}
+
+.portfolio img,
+.services img{
+    max-height: 395px;
+}
+.portfolio,
+.services,
+.seo,
+.reviews,
+.packaging,
+.extras,
+.followus{
+    float: left;
+}
+
+.followus{
+    margin-left: 100px;
+}
+
+.packaging,
+.portfolio,
+.seo{
+    padding-right: 5px;
+}
+
+
