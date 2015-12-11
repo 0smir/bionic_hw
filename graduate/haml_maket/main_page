@@ -46,15 +46,16 @@
     .row
      %h3
      .clients-slide
-   .footer
+
     .row
      .connect
     .row
      .yourproject
     .row
-     .footer-menu.clearfix
-      %ul.col-lg-12
-       - (1..8).each do |i|
-        %li
-        %a{href:'#'}
-      %img{src:'', alt:''}
+     .footer
+      .footer-menu
+       %ul.col-lg-12
+        - (1..8).each do |i|
+         %li
+          %a{href:'#'}
+       %img{src:'', alt:''}
