@@ -47,7 +47,17 @@ li{
 }
 
 .town{
+    padding-top: 10px;
     float: left;
+    color: #ababab;
+}
+
+.top-menu a{
+    color: #949599;
+    padding: 0 10px 10px 0;
+    border-radius: 10%;
+    line-height: 20px;
+    text-decoration: none;
 }
 
 
@@ -56,6 +66,10 @@ li{
     border-bottom: 1px solid grey;
 }
 
-ul{
-    -webkit-padding-before: 0;
+
+.clearfix:after{
+    content: ' ';
+    display: inline-block;
+    overflow: hidden;
+    clear: both;
 }
