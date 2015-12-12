@@ -51,11 +51,16 @@ li{
     display: inline-block;
 }
 
-.town{
-    padding-top: 10px;
-    float: left;
+.social{
     color: #ababab;
+    margin: 15px 0 0;
 }
+
+.town
+{
+    float: left;
+}
+
 
 a{
     color: #949599;
