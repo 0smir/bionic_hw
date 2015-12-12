@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cc101studios</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="style-icon.css" rel="stylesheet">
     <link href='style101studios.css' rel='stylesheet'>
-    <link href="js/bootstrap.js" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
 </head>
 <body>
 
@@ -23,10 +24,10 @@
                          <div class="social clearfix">
                              <span class="town">Phoenix // Los Angeles // San Francisco</span>
                              <ul class="soclink">
-                                 <li><a href='#'><img src='#'></a></li>
-                                 <li><a href='#'><img src='#'></a></li>
-                                 <li><a href='#'><img src='#'></a></li>
-                                 <li><a href='#'><img src='#'></a></li>
+                                 <li><a href='#'><span class="icon-facebook"></span></a></li>
+                                 <li><a href='#'><span class="icon-instagram"></span></a></li>
+                                 <li><a href='#'><span class="icon-twitter"></span></a></li>
+                                 <li><a href='#'><span class="icon-tumblr"></span></a></li>
                                  <li><a href='#'><img src='#'></a></li>
                                  <li><a href='#'><img src='#'></a></li>
                              </ul>
@@ -80,7 +81,7 @@
         <div class="clients-list">
             <div class="container">
                 <div class='row'>
-                    <h3 class="text-right">OUR CLIENTS</h3>
+                    <h2 class="text-right">OUR CLIENTS</h2>
                     <div class='clients-slide'>
 
                         тут будет карусель с клиентами
@@ -100,46 +101,49 @@
                                 help your business <span class="text-uppercase">shine.</span>
                             </p>
                         </div>
-                        <div class="join-form col-lg-4 ol-lg-offset-3">
-                            <form><input class="form-control" type="email" name="subscription" required placeholder="EMAIL">
-                            <input class="button" type="submit" value="JOIN US">
-                            </form>
-                        </div>
+                        <form action="#" method="post" class="col-lg-5 col-lg-offset-2">
+                            <div>
+                                <input type="email" name="subscription" required placeholder="EMAIL">
+                            </div>
+                            <div>
+                                <input type="submit" value="JOIN US">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div><!--get-connect-->
-            <div class="yourproject">
+            <form action="#" class="yourproject" method="post">
                 <div class="container">
                     <div class='row'>
-                        <h2 class="text-center col-lg-12">QUOTE YOUR PROJECT</h2>
+                        <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 >QUOTE YOUR PROJECT</h2>
+                        </div>
                     </div>
                     <div class="row">
-
-                            <div class="form-group col-lg-4">
-                                <label>YOUR NAME *</label>
-                                <input class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group col-lg-4">
-                                <label>YOUR EMAIL ADDRESS *
-                                <input class="form-control" type="email" required></label>
-                            </div>
-                            <div class="form-group col-lg-4">
-                                <label>PHONE NUMBER *
-                                <input class="form-control" type="tel" required></label>
-                            </div>
+                        <div class="form-group col-lg-4 col col-md-4 col-sm-12 col-xs-12">
+                            <label>YOUR NAME *</label>
+                            <input  type="text" required>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <label>YOUR EMAIL ADDRESS *</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <label>PHONE NUMBER *</label>
+                            <input type="tel" required>
+                        </div>
                     </div>
-                    <div class="row"></div>
-                            <div class="form-group col-lg-">
-                                <label class="text-center">TELL US A BIT ABOUT YOUR BUSINESS AND YOUR PROJECT REQUEST
-                                <textarea class="form-control" name="about-project" cols="40" rows="6"></textarea></label>
-                                <p class="send-project-info">
-                                    <input class="button" type="submit" value="SEND MESSAGE">
-                                </p>
-                            </div>
-
+                    <div class="row">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label class="text-center">TELL US A BIT ABOUT YOUR BUSINESS AND YOUR PROJECT REQUEST</label>
+                            <textarea name="about-project" cols="40" rows="6"></textarea>
+                            <p class="send-project-info">
+                                <input type="submit" value="SEND MESSAGE">
+                            </p>
+                        </div>
                     </div><!--row-->
                 </div>
-            </div><!--your project-->
+            </form>
             <div class="footer-menu">
                 <div class="container">
                     <div class="row">
@@ -157,7 +161,7 @@
                             <li><a href='#'>TERMS + POLICIES</a></li>
                             <li><a href='#'>CONTACT</a></li>
                         </ul>
-                        <img class="img-responsiv" alt='shopify-experts' src="images/home/shopify-experts.png">
+                        <img class="img-responsiv sof-expert" alt='shopify-experts' src="images/home/shopify-experts.png">
                     </div><!--row-->
                 </div><!--container-->
             </div><!--footer-menu-->
