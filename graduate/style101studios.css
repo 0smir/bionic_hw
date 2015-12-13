@@ -53,6 +53,10 @@ h2{
     font-size: 32px;
 }
 
+form h2{
+    text-align: center;
+}
+
 li{
     display: inline-block;
 }
@@ -63,6 +67,22 @@ li{
     margin: 15px 0 0;
 
 }
+
+.icon-facebook,
+.icon-instagram,
+.icon-twitter,
+.icon-tumblr,
+.icon-linkedin2,
+.icon-pinterest2{
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #ababab;
+    border: 8px solid #ababab;
+    color: white;
+    border-radius: 50%;
+}
+
+
 
 .town
 {
@@ -159,10 +179,6 @@ a:hover{
 
 /*
 
-.send-project-info{
-    text-align: center;
-}
-
 
 label,
 .footer-menu{
@@ -177,7 +193,7 @@ label,
 label {
     display: block;
     margin: 0 auto;
-   text-align: center;
+    text-align: center;
     border-radius: 0 !important;
 }
 textarea{
@@ -190,8 +206,15 @@ input[type="tel"],
 input[type="email"],
 textarea{
     width: 100%;
+}
+
+.for-mame,
+.for-mail,
+.for-tel {
     float: left;
 }
+
+
 
 input[type="text"]:hover,
 input[type="tel"]:hover,
@@ -211,6 +234,8 @@ input[type="submit"]{
 }
 
 
+
+
 /*стили для меню footer*/
 
 .footer-menu>.container{
@@ -222,20 +247,10 @@ input[type="submit"]{
     float: left;
 }
 
-.footer-menu ul{
-    margin-left: 30px;
-}
-
-
-.icon-facebook,
-.icon-instagram,
-.icon-twitter,
-.icon-tumblr {
-    font-size: 20px;
-    color: grey;
-}
-
 .sof-expert{
     display: inline-block;
     text-align: center;
 }
+
+
+
