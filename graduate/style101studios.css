@@ -80,13 +80,12 @@ li{
     border: 8px solid #ababab;
     color: white;
     border-radius: 50%;
+    vertical-align: baseline;
 }
 
 
 .soclink li{
-    float: left;
-    padding: 9px;
-    vertical-align: middle;
+
 }
 
 
@@ -258,5 +257,32 @@ input[type="submit"]{
     text-align: center;
 }
 
+
+/* стили для карусели*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+.carousel-indicators li,
+.carousel-indicators .active{
+    height: 2px;
+    width: 40px;
+    border: 3px solid #fff;
+    opacity: 0.3;
+    bacground-color: #fff;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+.carousel-indicators li,
+.carousel-indicators a{
+    opacity: 0.8;
+    cursor: default;
+}
 
 
