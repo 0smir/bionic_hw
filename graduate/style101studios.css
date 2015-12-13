@@ -75,13 +75,19 @@ li{
 .icon-linkedin2,
 .icon-pinterest2{
     font-size: 21px;
-    line-height: 21px;
+    line-height: 42px;
     background-color: #ababab;
     border: 8px solid #ababab;
     color: white;
     border-radius: 50%;
 }
 
+
+.soclink li{
+    float: left;
+    padding: 9px;
+    vertical-align: middle;
+}
 
 
 .town
