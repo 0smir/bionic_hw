@@ -46,8 +46,10 @@ body{
     line-height: 25px;
     font-family: sans-serif;
     background-color: antiquewhite;
-    padding-top: 130px;
+    padding-top: 150px;
 }
+
+
 
 h2{
     font-size: 32px;
@@ -138,7 +140,7 @@ a:hover{
 
 .portfolio img,
 .services img{
-   height: 400px;
+   height: 407px;
 }
 .portfolio,
 .services,
@@ -259,8 +261,8 @@ input[type="submit"]{
 
 
 /* стили для карусели*/
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+#main-proposition > .carousel-inner > .item > img,
+#main-proposition > .carousel-inner > .item > a > img {
     width: 100%;
     height: auto;
     margin: auto;
@@ -268,34 +270,8 @@ input[type="submit"]{
 }
 
 
-/*.carousel-indicators li,
-.carousel-indicators .active{
-    height: 2px;
-    width: 40px;
-    border: 3px solid #fff;
-    opacity: 0.3;
-    bacground-color: #fff;
-    overflow: hidden;
-    border-radius: 1px;
-}
-
-.carousel-indicators li:visited,
-.carousel-indicators .active:visited,
-.carousel-indicators a:visited{
-    opacity: 0.8;
-    cursor: default;
-}
-
-
-.carousel-indicators li:hover,
-.carousel-indicators .active:hover,
-.carousel-indicators a:hover{
-    opacity: 0.8;
-    cursor: default;
-}*/
-
-.carousel-indicators li,
-.carousel-indicators .active{
+#main-proposition .carousel-indicators li,
+#main-proposition .carousel-indicators .active{
     display: inline-block;
     width: 40px;
     height: 1px;
@@ -308,12 +284,41 @@ input[type="submit"]{
     background-color: rgba(0, 0, 0, 0);
 }
 
-.carousel-indicators li{
+#main-proposition .carousel-indicators li{
     opacity: 0.3;
 }
 
-.carousel-indicators .active{
+#main-proposition .carousel-indicators .active{
     opacity: 0.8;
 }
+
+/* стили для карусели с клиентами*/
+
+#clients-slide .carousel-inner > .item{
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    width: 126px;
+}
+
+#clients-slide{
+    margin-bottom: 50px;
+}
+
+#clients-slide .right,
+#clients-slide .left{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    top: 20%;
+    background: #fff;
+}
+
+#clients-slide .carousel-indicators{
+    visibility: hidden;
+}
+
+
+
 
 
