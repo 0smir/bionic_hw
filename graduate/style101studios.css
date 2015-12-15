@@ -53,6 +53,12 @@ body{
     box-sizing: border-box;
 }
 
+.getconnect,
+.yourproject,
+.footer-menu{
+    padding: 20px 0;
+}
+
 
 .header,
 .fixed{
@@ -60,12 +66,17 @@ body{
 }
 
 .hhh{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #cfcfcf;
 }
 
 
 h2{
     font-size: 32px;
+    line-height: 32px;
+}
+h3{
+    font-size: 32px;
+    line-height: 32px;
 }
 
 form h2{
@@ -91,16 +102,11 @@ li{
 .icon-pinterest2{
     font-size: 21px;
     line-height: 42px;
-    background-color: #ababab;
-    border: 8px solid #ababab;
+    background-color: #cfcfcf;
+    border: 8px solid #cfcfcf;
     color: white;
     border-radius: 50%;
     vertical-align: baseline;
-}
-
-
-.soclink li{
-
 }
 
 
@@ -138,12 +144,11 @@ a:hover{
     clear: both;
 }
 
-
+/* стили для картинок-меню (большие)*/
 
 .portfolio img,
 .services img{
-    max-width:100%;
-    height: auto;
+
 }
 .portfolio,
 .services,
@@ -166,34 +171,36 @@ a:hover{
 }
 
 
-/*.container {
-    position: relative;
-    width: 1177px;
-    margin: 0 auto;
-}*/
 
 
 /*styles for footer*/
 
-
+            /* styles for form*/
 .getconnect{
     background-color: #949599;
-    margin-bottom: 10px;
+    margin: 10px 0;
+}
+
+.connect {
+    padding: 20px 0;
 }
 .yourproject{
     background-color: #96a9bc;
 }
 
-
-/* styles for form*/
+.forsubscription{
+    display: block;
+    padding: 20px 0;
+}
 
 
 label {
+    margin-bottom: 4px;
     display: block;
-    margin: 0 auto;
     text-align: center;
     border-radius: 0 !important;
 }
+
 textarea{
     border: 1px solid #ccc;
     padding: 12px 8px 12px 12px;
@@ -204,6 +211,7 @@ input[type="tel"],
 input[type="email"],
 textarea{
     width: 100%;
+    padding: 12px;
 }
 
 .for-mame,
@@ -211,7 +219,6 @@ textarea{
 .for-tel {
     float: left;
 }
-
 
 
 input[type="text"]:hover,
@@ -222,13 +229,14 @@ textarea:hover{
 }
 
 
-
 input[type="submit"]{
     color: white;
     text-transform: uppercase;
     text-align: center;
     display: inline-block;
+    vertical-align: middle; /*  не выравнивает по центру*/
 }
+
 
 .forsubscription [type="email"]{
     width: 72%;
@@ -236,7 +244,10 @@ input[type="submit"]{
 
 .forsubscription [type="submit"]{
     width: 25%;
+
 }
+
+
 
 
 /*стили для меню footer*/
@@ -245,10 +256,11 @@ input[type="submit"]{
 .footer-menu li{
     padding: 0 5px 0 0;
     float: left;
+    vertical-align: middle;
 }
 
 
-/* стили для карусели*/
+/* стили для карусели-меню*/
 #main-proposition > .carousel-inner > .item > img,
 #main-proposition > .carousel-inner > .item > a > img {
     width: 100%;
