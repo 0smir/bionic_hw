@@ -49,6 +49,19 @@ body{
     padding-top: 150px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+
+.header,
+.fixed{
+    background-color: white
+}
+
+.hhh{
+    border-bottom: 1px solid grey;
+}
 
 
 h2{
@@ -118,13 +131,6 @@ a:hover{
 }
 
 
-
-.navbar-fixed-top>.container{
-    border-bottom: 1px solid grey;
-    padding: 5px 0;
-}
-
-
 .clearfix:after{
     content: ' ';
     display: inline-block;
@@ -133,14 +139,11 @@ a:hover{
 }
 
 
-.header,
-.navbar-fixed-top{
-    background-color: white;
-}
 
 .portfolio img,
 .services img{
-   height: 407px;
+    max-width:100%;
+    height: auto;
 }
 .portfolio,
 .services,
@@ -184,18 +187,6 @@ a:hover{
 
 /* styles for form*/
 
-/*
-
-
-label,
-.footer-menu{
-    font-size: 12px;
-}
-
-[name="subscription"]{
-    padding: 12px 20px;
-}
-*/
 
 label {
     display: block;
@@ -235,28 +226,25 @@ textarea:hover{
 input[type="submit"]{
     color: white;
     text-transform: uppercase;
-    padding: 12px 20px;
     text-align: center;
     display: inline-block;
 }
 
+.forsubscription [type="email"]{
+    width: 72%;
+}
 
+.forsubscription [type="submit"]{
+    width: 25%;
+}
 
 
 /*стили для меню footer*/
 
-.footer-menu>.container{
-    padding: 20px 0 0;
-}
 
 .footer-menu li{
-    padding: 0 10px 0;
+    padding: 0 5px 0 0;
     float: left;
-}
-
-.sof-expert{
-    display: inline-block;
-    text-align: center;
 }
 
 
