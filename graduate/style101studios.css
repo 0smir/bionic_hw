@@ -112,6 +112,7 @@ li{
 
 .town{
     line-height: 42px;
+
 }
 
 
@@ -120,9 +121,18 @@ li{
     letter-spacing: 1px;
 }
 .top-menu li{
-    padding: 0 13px 30px 0;
+    padding: 0 13px 23px 0;
+    text-align: right;
 }
 
+.top-menu ul{
+    text-align: right;
+}
+
+.social ul{
+
+    text-align: right;
+}
 
 a{
     color: #949599;
@@ -332,6 +342,55 @@ input[type="submit"]{
 #clients-slide .carousel-indicators{
     visibility: hidden;
 }*/
+
+
+
+/* медиа запросы*/
+
+
+@media screen and (min-width: 1199px){
+
+    .portfolio{
+            height: 407px;
+        }
+    .services{
+        height: 406px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 992px){
+
+    .soclink li{
+        margin-left: 10px;
+    }
+
+    .portfolio{
+        height: 323px;
+    }
+    .services{
+        height: 323px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+}
 
 
 
