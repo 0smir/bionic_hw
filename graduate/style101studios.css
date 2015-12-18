@@ -1,7 +1,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+del, dfn, img, ins, kbd, q, s, samp, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -48,7 +48,7 @@ body{
     letter-spacing: 1px;
     font-family: sans-serif;
     background-color: antiquewhite;
-    padding-top: 150px;
+    padding-top: 138px;
 }
 
 *{
@@ -84,7 +84,8 @@ form h2{
     text-align: center;
 }
 
-li{
+.top li,
+.footer-menu li{
     display: inline-block;
 }
 
@@ -378,24 +379,35 @@ button{
 
 .main_info_about_studio p,
 .about_services p,
-.services_column p {
+.services_column p,
+.about_packaging p{
     margin: 0 0 15px;
     font-style: normal;
-    line-height: 32px;
+    line-height: 24px;
 }
 
 figure{
     margin: 0 0 20px;
 }
+.banner{
+    margin: 0 0 20px;
+}
+
+
+
+.banner img{
+    height: auto;
+    max-width: 100%;
+}
+
+
 
 
 .services_column ul{
     margin: 0 0 15px;
 }
 
-.main_info_about_studio:last-child {
-    margin-bottom: 64px;
-}
+
 
 .main_info_about_studio h1,
 .about_services h1{
@@ -407,12 +419,44 @@ figure{
     text-transform: uppercase;
 }
 
-.services_column h3{
+.services_column h3,
+.about_packaging h3{
     font-size: 20px;
     line-height: 32px;
     font-weight: bold;
     margin: 0 0 15px;
 }
+
+
+.detail h4{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #949599;
+    border-top: 1px solid #949599;
+}
+
+.additional-services{
+    margin-top: 20px;
+}
+
+
+.detail li{
+    list-style-type: circle;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.additional-services img{
+    height: auto;
+    max-width: 100%;
+    padding-right: 50px;
+}
+
 
 
 
@@ -429,6 +473,8 @@ figure{
     .services{
         height: 406px;
     }
+
+   
 
 
 
