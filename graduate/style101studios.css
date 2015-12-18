@@ -42,7 +42,7 @@ table {
 }
 /*---------reset css---------------*/
 body{
-    font-size: 14px;
+   
     font-family: "Montserrat";
     line-height: 25px;
     letter-spacing: 1px;
@@ -65,12 +65,17 @@ header
     border-bottom: 1px solid #cfcfcf;
 }
 
+h1,
+h2,
+h3{
+    color: #949599;
+}
 
 h2{
     font-size: 32px;
     line-height: 32px;
 }
-h3{
+.clients-list h3{
     font-size: 32px;
     line-height: 32px;
 }
@@ -111,7 +116,9 @@ li{
 
 
 .town{
+    font-size: 12px;
     line-height: 42px;
+    padding-left: 25px;
 
 }
 
@@ -130,7 +137,6 @@ li{
 }
 
 .social ul{
-
     text-align: right;
 }
 
@@ -159,10 +165,6 @@ a:hover{
     margin-top: 5px;
 }
 
-.portfolio img,
-.services img{
-
-}
 .portfolio,
 .services,
 .seo,
@@ -170,6 +172,7 @@ a:hover{
 .packaging,
 .extras,
 .followus{
+    float: left;
 
 }
 
@@ -181,6 +184,10 @@ a:hover{
 .portfolio,
 .seo{
     padding-right: 5px;
+}
+
+.menu-gallery .row{
+    padding-bottom: 5px;
 }
 
 
@@ -207,6 +214,10 @@ a:hover{
     background-color: #96a9bc;
 }
 
+
+
+.getconnect h2,
+.yourproject h2,
 .getconnect,
 .yourproject{
     color: white;
@@ -258,8 +269,21 @@ input[type="submit"]{
     color: white;
     text-transform: uppercase;
     text-align: center;
-    display: inline-block;
-    vertical-align: middle; /*  не выравнивает по центру*/
+
+}
+
+input[type="submit"]{
+    padding: 10px 0;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+button{
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -277,12 +301,18 @@ input[type="submit"]{
 
 /*стили для меню footer*/
 
+.footer-menu{
+    text-align: center;
+}
 
 .footer-menu li{
     padding: 0 5px 0 0;
-    float: left;
-    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+
 }
+
+
 
 
 /* стили для карусели-меню*/
@@ -344,6 +374,49 @@ input[type="submit"]{
 }*/
 
 
+/* style for page about studio*/
+
+.main_info_about_studio p,
+.about_services p,
+.services_column p {
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 32px;
+}
+
+figure{
+    margin: 0 0 20px;
+}
+
+
+.services_column ul{
+    margin: 0 0 15px;
+}
+
+.main_info_about_studio:last-child {
+    margin-bottom: 64px;
+}
+
+.main_info_about_studio h1,
+.about_services h1{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.services_column h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+
+
+
 
 /* медиа запросы*/
 
@@ -351,7 +424,7 @@ input[type="submit"]{
 @media screen and (min-width: 1199px){
 
     .portfolio{
-            height: 407px;
+            height: 405px;
         }
     .services{
         height: 406px;
@@ -364,16 +437,7 @@ input[type="submit"]{
 
 @media screen and (min-width: 992px){
 
-    .soclink li{
-        margin-left: 10px;
-    }
 
-    .portfolio{
-        height: 323px;
-    }
-    .services{
-        height: 323px;
-    }
 
 
 }
