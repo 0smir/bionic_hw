@@ -1,0 +1,14 @@
+-# Массив
+- @array_1 = ['Item1', 'Item2', 'Item3'];
+
+-# Ассоциативный массив
+- @array_2 = {'key1' => 'Item1', 'key2' => 'Item2', 'key3' => 'Item3'};
+%ul
+  -@array_2.each do |key, value|
+    %li #{key}:#{value}
+
+-# новый массив
+- @array_3 = ['Item1', 'Item2', 'Item3'];
+%ol
+  -@array_3.each do |key, value|
+    %li #{key}:#{value}

@@ -1,0 +1,25 @@
+.nav.nav-pagination
+  %ol.pages
+    - (1..6).each do |i|
+      %li.page
+        - if i == 3
+          %span.current #{i}
+        - else
+          %a{:href => '#'} #{i}
+
+
+
+.nav-new
+  %ul.nav-for-olya
+    -(1..4).each do|i|
+      %li.nav-top
+        - if i == 1
+          %a.reviews{:href =>'http//:uydg'}
+        - if i == 2
+          %a.home{:href =>'http//:hhyy'}
+        - if i == 3
+          %a.contact{:href =>'http//:hftrg'}
+        - if i == 4
+          %a.aboutus{:href =>'http//:#'} #{i}
+        - else
+          %span #{i}

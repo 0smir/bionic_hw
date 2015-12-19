@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*---------reset css---------------*/
+
+body{
+    background-color: mistyrose;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.top{
+    border-bottom: 5px solid dimgrey;
+}
+
+/* css for help*/
+
+.container{
+    border: 1px solid red;
+}
+
+header{
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.row{
+    border: 1px solid yellow;
+}
+
+.col-lg-12,
+.col-lg-5,
+.col-lg-4,
+.col-lg-3,
+.col-lg-9,
+.col-lg-2,
+.col-lg-10,
+.col-lg-1,
+.col-lg-11,
+.col-lg-16,
+.col-lg-offset-2{
+    border: 1px solid greenyellow;
+}
+
+li{
+    display: inline-block;
+}
+
+.slide-show{
+    background-color: #888888;
+}
+
+
+.menu-gallery{
+    background-color: #ce8483;
+}
+
+.client-slide-show{
+    background-color: #f7ecb5;
+}
+
+
+.getconnect{
+    background-color: darksalmon;
+}
+
+
+.yourproject{
+    background-color: olivedrab;
+}
+
+
+
+/* style for forms*/
+
+.getconnect{
+    background-color: #949599;
+    margin: 10px 0;
+}
+
+.connect {
+    padding: 20px 0;
+}
+.yourproject{
+    background-color: #96a9bc;
+}
+
+.getconnect,
+.yourproject{
+    color: white;
+}
+
+.forsubscription{
+    display: block;
+    padding: 20px 0;
+}
+
+
+label {
+    margin-bottom: 4px;
+    display: block;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    padding: 12px 8px 12px 12px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.for-mame,
+.for-mail,
+.for-tel {
+    float: left;
+}
+
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+textarea:hover{
+    border: 1px solid #88898a;
+}
+
+
+input[type="submit"]{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle; /*  не выравнивает по центру*/
+}
+
+
+.forsubscription [type="email"]{
+    width: 72%;
+}
+
+.forsubscription [type="submit"]{
+    width: 25%;
+
+}
+
+/*footer-menu style*/
+
+.footer-menu li{
+    padding: 0 5px 0 0;
+    float: left;
+    vertical-align: middle;
+}
