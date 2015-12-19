@@ -44,15 +44,22 @@ table {
 body{
    
     font-family: "Montserrat";
-    line-height: 25px;
-    letter-spacing: 1px;
+    line-height: 20px;
+
     font-family: sans-serif;
-    background-color: antiquewhite;
+    font-size: 13px;
+    color: #404040;
+    /*background-color: antiquewhite;*/
     padding-top: 138px;
 }
 
 *{
     box-sizing: border-box;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
 }
 
 
@@ -82,6 +89,12 @@ h2{
 
 form h2{
     text-align: center;
+}
+
+p{
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 24px;
 }
 
 .top li,
@@ -160,6 +173,8 @@ a:hover{
     clear: both;
 }
 
+
+
 /* стили для картинок-меню (большие)*/
 
 .menu-gallery{
@@ -184,7 +199,7 @@ a:hover{
 .packaging,
 .portfolio,
 .seo{
-    padding-right: 5px;
+    padding-right: 6px;
 }
 
 .menu-gallery .row{
@@ -377,29 +392,9 @@ button{
 
 /* style for page about studio*/
 
-.main_info_about_studio p,
-.about_services p,
-.services_column p,
-.about_packaging p{
-    margin: 0 0 15px;
-    font-style: normal;
-    line-height: 24px;
-}
-
-figure{
-    margin: 0 0 20px;
-}
 .banner{
     margin: 0 0 20px;
 }
-
-
-
-.banner img{
-    height: auto;
-    max-width: 100%;
-}
-
 
 
 
@@ -461,6 +456,18 @@ figure{
 
 
 
+.all-review h2{
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+.all-review p{
+    padding-top: 20px;
+}
+
+
+
+
 
 /* медиа запросы*/
 
@@ -468,7 +475,7 @@ figure{
 @media screen and (min-width: 1199px){
 
     .portfolio{
-            height: 405px;
+            height: 407px;
         }
     .services{
         height: 406px;
