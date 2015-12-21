@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3 -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="author" content="www.frebsite.nl">
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes">
+
+		<title>jQuery.mmenu - Demo</title>
+
+		<link type="text/css" rel="stylesheet" href="./jQuery.mmenu - Demo_files/demo.css">
+		<link type="text/css" rel="stylesheet" href="./jQuery.mmenu - Demo_files/jquery.mmenu.all.css"><style type="text/css"></style>
+		<link type="text/css" rel="stylesheet" href="./jQuery.mmenu - Demo_files/font-awesome.min.css">
+		<style type="text/css">
+		.mm-menu {
+			background: #444 !important;
+		}
+		.mm-subopened .mm-subblocker {
+			opacity: 1;
+		}
+		.mm-subopened .mm-subblocker:before {
+			content: "x";
+			color: #999;
+			display: inline-block;
+			padding: 5px 15px;
+		}
+		.mm-subopened .mm-subblocker:hover:before {
+			color: #ccc;
+		}
+		</style>
+
+		<script type="text/javascript" src="./jQuery.mmenu - Demo_files/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="./jQuery.mmenu - Demo_files/jquery.mmenu.min.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#menu")
+					.mmenu({
+		extensions 	: [ "theme-dark", "effect-listitems-slide" ],
+		iconPanels	: {
+			add 		: true,
+			visible		: 1
+		},
+		navbar		: {
+			add 		: false
+		},
+		counters	: true
+					}).on( 'click',
+						'a[href^="#/"]',
+						function() {
+							alert( "Thank you for clicking, but that's a demo link." );
+							return false;
+						}
+					);
+			});
+		</script>
+</head>
+<body class="">
+	<nav id="menu" class="mm-menu mm-theme-dark mm-effect-listitems-slide mm-offcanvas mm-iconpanel">
+		<div class="mm-panels">
+			<div class="mm-panel mm-opened mm-current mm-iconpanel-0" id="mm-0">
+				<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-0" class="mm-subblocker"></a>
+				<div class="mm-navbar">
+					<a class="mm-title">Menu</a>
+				</div>
+					<ul class="mm-listview">
+						<li><a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/">Home</a></li>
+						<li>
+						<em class="mm-counter">3</em>
+						<a class="mm-next" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-1" data-target="#mm-1"></a>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about">About us</a>
+						</li>
+						<li><a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/contact">Contact</a></li>
+					</ul>
+			</div>
+			<div class="mm-panel mm-hidden" id="mm-1">
+				<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-1" class="mm-subblocker"></a>
+				<div class="mm-navbar">
+					<a class="mm-btn mm-prev" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-0" data-target="#mm-0"></a>
+					<a class="mm-title" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-0">About us</a>
+				</div>
+				<ul class="mm-listview">
+					<li><a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/history">History</a></li>
+					<li>
+						<em class="mm-counter">3</em>
+						<a class="mm-next" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-2" data-target="#mm-2"></a>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/team">The team</a>
+					</li>
+					<li>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/address">Our address</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mm-panel mm-hidden" id="mm-2">
+				<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-2" class="mm-subblocker"></a>
+				<div class="mm-navbar">
+					<a class="mm-btn mm-prev" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-1" data-target="#mm-1"></a>
+					<a class="mm-title" href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#mm-1">The team</a>
+				</div>
+				<ul class="mm-listview">
+					<li>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/team/management">Management</a>
+					</li>
+					<li>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/team/sales">Sales</a>
+					</li>
+					<li>
+						<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#/about/team/development">Development</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="page" class="mm-page mm-slideout" style="">
+		<div class="header">
+			<a href="http://mmenu.frebsite.nl/demo/index.html?demo=menu-behavior-3#menu"></a>
+			Demo
+		</div>
+		<div class="content">
+			<p><strong>This is a demo.</strong><br>
+				Click the menu icon to open the menu.
+			</p>
+		</div>
+	</div>
+<div id="mm-blocker" class="mm-slideout">	</div>
+</body>
+</html>
+
+
+
+

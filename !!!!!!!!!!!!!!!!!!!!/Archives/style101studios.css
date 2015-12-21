@@ -1,0 +1,262 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*---------reset css---------------*/
+body{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    padding-top: 130px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+form h2{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+
+.social{
+    color: #ababab;
+    margin: 15px 0 0;
+
+}
+
+.icon-facebook,
+.icon-instagram,
+.icon-twitter,
+.icon-tumblr,
+.icon-linkedin2,
+.icon-pinterest2{
+    font-size: 21px;
+    line-height: 42px;
+    background-color: #ababab;
+    border: 8px solid #ababab;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.soclink li{
+    float: left;
+    padding: 9px;
+    vertical-align: middle;
+}
+
+
+.town
+{
+    margin-right: 20px;
+    float: left;
+}
+
+
+.top-menu{
+    font-size: 21px;
+}
+.top-menu li{
+    padding: 0 10px 10px 0;
+}
+
+
+a{
+    color: #949599;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.navbar-fixed-top>.container{
+    border-bottom: 1px solid grey;
+    padding: 5px 0;
+}
+
+
+.clearfix:after{
+    content: ' ';
+    display: inline-block;
+    overflow: hidden;
+    clear: both;
+}
+
+
+.header,
+.navbar-fixed-top{
+    background-color: white;
+}
+
+.portfolio img,
+.services img{
+   height: 400px;
+}
+.portfolio,
+.services,
+.seo,
+.reviews,
+.packaging,
+.extras,
+.followus{
+    float: left;
+}
+
+.followus{
+    margin-left: 100px;
+}
+
+.packaging,
+.portfolio,
+.seo{
+    padding-right: 5px;
+}
+
+
+/*.container {
+    position: relative;
+    width: 1177px;
+    margin: 0 auto;
+}*/
+
+
+/*styles for footer*/
+
+
+.getconnect{
+    background-color: #949599;
+    margin-bottom: 10px;
+}
+.yourproject{
+    background-color: #96a9bc;
+}
+
+
+/* styles for form*/
+
+/*
+
+
+label,
+.footer-menu{
+    font-size: 12px;
+}
+
+[name="subscription"]{
+    padding: 12px 20px;
+}
+*/
+
+label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0 !important;
+}
+textarea{
+    border: 1px solid #ccc;
+    padding: 12px 8px 12px 12px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    width: 100%;
+}
+
+.for-mame,
+.for-mail,
+.for-tel {
+    float: left;
+}
+
+
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+textarea:hover{
+    border: 1px solid #88898a;
+}
+
+
+
+input[type="submit"]{
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+/*стили для меню footer*/
+
+.footer-menu>.container{
+    padding: 20px 0 0;
+}
+
+.footer-menu li{
+    padding: 0 10px 0;
+    float: left;
+}
+
+.sof-expert{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
