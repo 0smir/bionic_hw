@@ -184,8 +184,8 @@ p{
 .town{
     font-size: 12px;
     line-height: 42px;
-    padding-left: 25px;
-
+    padding-left: 55px;
+    padding-right: 185px;
 }
 
 
@@ -205,6 +205,7 @@ p{
 }
 
 .social ul{
+    display: inline-block;
     text-align: right;
 }
 
@@ -280,7 +281,7 @@ a:active{
     padding-bottom: 5px;
 }
 
- /* styles for form*/
+/* styles for form*/
 
 .getconnect,
 .yourproject,
@@ -528,8 +529,8 @@ button{
 @media screen and (max-width: 1199px){
 
     .portfolio{
-            height: 407px;
-        }
+        height: 407px;
+    }
     .services{
         height: 406px;
     }
@@ -537,6 +538,14 @@ button{
     .top-menu{
         font-size: 21px;
         letter-spacing: 1px;
+    }
+
+
+    .town{
+        font-size: 12px;
+        line-height: 42px;
+        padding-left: 55px;
+        padding-right: 75px;
     }
 
 
@@ -558,6 +567,13 @@ button{
         letter-spacing: 1px;
     }
 
+    .town{
+        font-size: 12px;
+        line-height: 42px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -577,8 +593,4 @@ button{
 
 
 }
-
-
-
-
 
