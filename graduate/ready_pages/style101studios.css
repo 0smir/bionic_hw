@@ -52,6 +52,11 @@ body{
 
 }
 
+.slide-show{
+    padding-top: 133px;
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -518,32 +523,23 @@ button{
     padding-top: 20px;
 }
 
-
-
-
-
 /* медиа запросы*/
 
+@media screen and (min-width: 1200px) {
 
-@media screen and (max-width: 1199px){
-
-    .portfolio{
-            height: 407px;
-        }
-    .services{
-        height: 406px;
+    .portfolio {
+        height: 407px;
     }
 
-    .top-menu{
-        font-size: 21px;
-        letter-spacing: 1px;
+    .services {
+        height: 406px;
     }
 
 
 
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1199px) {
 
     .portfolio{
         height: 324px;
@@ -552,17 +548,123 @@ button{
         height: 325px;
     }
 
-
-    .top-menu{
-        font-size: 16px;
+    .top-menu {
+        font-size: 21px;
         letter-spacing: 1px;
     }
 
+    .slide-show {
+        padding-top: 178px;
+    }
+
+    .packaging {
+        height: 257px;
+    }
+
+    .extras{
+        height: 258px;
+    }
+
+    .seo{
+        height: 255px;
+    }
+
+    .reviews{
+        height: 255px;
+    }
+
+    .for-mail{
+        margin: 0 18px 0 18px;
+    }
+
+    .forsubscription [type="submit"] {
+        width: 24%;
+
+
 }
 
-@media screen and (max-width: 768px){
+
+}
+/*
+@media only screen and (max-width: 1199px) and (min-width: 960px){
+    .container {
+        position: relative;
+        width: 960px;
+    }
+
+    .soclink{
+        width: 716px;
+        position: relative;
+        top: -40px;
+    }
+
+    .top-menu {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
 
 
+} */
+
+@media screen and (max-width: 991px){
+
+    .top-menu{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .top-menu li {
+        padding: 0 8px 15px 0;
+    }
+
+    .slide-show{
+        padding-top: 168px;
+    }
+
+    .portfolio{
+        height: 248px;
+    }
+
+    .followus{
+        margin-left: 50px;
+    }
+
+    .services{
+        height: 248px;
+    }
+
+    .for-mail{
+        margin: 0 12px 0 13px;
+    }
+
+    .packaging {
+        height: 195px;
+    }
+
+    .extras{
+        height: 199px;
+    }
+
+    .seo{
+        height: 201px;
+    }
+
+    .reviews{
+        height: 202px;
+    }
+
+    .forsubscription [type="submit"] {
+        width: 23.5%;
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+    .container {
+        width: 420px;
+    }
 
 
     .top-menu{
@@ -575,9 +677,76 @@ button{
     }
 
 
+    .slide-show{
+        padding-top: 5px;
+    }
+
+    .portfolio,
+    .seo,
+    .packaging{
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .portfolio,
+    .services,
+    .seo,
+    .reviews,
+    .packaging,
+    .extras,
+    .followus{
+        width: 100%;
+        height: auto;
+    }
+
+    .followus{
+        margin-left: 0;
+    }
+
+    .for-mame,
+    .for-mail,
+    .for-tel {
+        float: left;
+        width: 100%;
+    }
+
+    .for-mail {
+        margin: 0;
+    }
 
 }
 
+/*
+@media only screen and (max-width: 767px){
+
+    .container {
+        width: 300px;
+    }
+
+
+    .portfolio{
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .portfolio,
+    .services,
+    .seo,
+    .reviews,
+    .packaging,
+    .extras,
+    .followus{
+        width: 100%;
+        height: auto;
+    }
+
+    .followus{
+        margin-left: 0;
+    }
+}
+*/
 
 
 
