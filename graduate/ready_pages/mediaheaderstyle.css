@@ -148,7 +148,7 @@ p{
     line-height: 24px;
 }
 
-.top li,
+.main-info li,
 .footer-menu li{
     display: inline-block;
 }
@@ -186,6 +186,7 @@ p{
     line-height: 42px;
     padding-left: 55px;
     padding-right: 185px;
+
 }
 
 
@@ -200,14 +201,12 @@ p{
     text-align: right;
 }
 
-.top-menu a{
 
-}
-
-.social ul{
+.soclink li{
     display: inline-block;
     text-align: right;
 }
+
 
 a{
     color: #949599;
@@ -577,8 +576,6 @@ button{
 }
 
 @media screen and (max-width: 768px){
-
-
 
 
     .top-menu{
